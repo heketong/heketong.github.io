@@ -47,7 +47,7 @@
 		}
 	}
 }
-</code></pre><p></details></p><h2 id=网搜图解>网搜图解</h2><p><img src=/Users/ketonghe/blog/public/donate/bubbleSort.gif alt></p><p>​ 摘自: <a href=https://www.cnblogs.com/onepixel/p/7674659.html>https://www.cnblogs.com/onepixel/p/7674659.html</a></p><h1 id=插入排序>插入排序</h1><h2 id=介绍-1>介绍</h2><p>​ 插入排序顾名思义就是将一个待排序的元素，插入到一组已经排好序的元素中，如果形象比喻下，可以想象一下打牌，拿起来第一张牌自然就是排好序的，拿起第二张则跟第一张进行比较，插入到合适的位置。接下来拿第三张 跟前面2张已经排好序的比较，插入合适的位置，依次类推，拿完所有的牌，顺序自然也排好了。</p><p>​ 将待排序的元素分为有序区和无序区，按照顺序每次从无序区拿一个元素，插入插入到有序区，直到所有无序区的元素都插入有序区，整个排序过程结束。第一次有序区为第1个元素，无序区为第2&mdash;N个元素，拿出第2个元素插入到有序区。</p><h2 id=代码-1>代码</h2><p><details><summary>InsertSort</summary></p><pre><code class=language-go>func InsertSort(a []int) {
+</code></pre><p></details></p><h2 id=网搜图解>网搜图解</h2><p><img src=donate/bubbleSort.gif alt></p><p>​ 摘自: <a href=https://www.cnblogs.com/onepixel/p/7674659.html>https://www.cnblogs.com/onepixel/p/7674659.html</a></p><h1 id=插入排序>插入排序</h1><h2 id=介绍-1>介绍</h2><p>​ 插入排序顾名思义就是将一个待排序的元素，插入到一组已经排好序的元素中，如果形象比喻下，可以想象一下打牌，拿起来第一张牌自然就是排好序的，拿起第二张则跟第一张进行比较，插入到合适的位置。接下来拿第三张 跟前面2张已经排好序的比较，插入合适的位置，依次类推，拿完所有的牌，顺序自然也排好了。</p><p>​ 将待排序的元素分为有序区和无序区，按照顺序每次从无序区拿一个元素，插入插入到有序区，直到所有无序区的元素都插入有序区，整个排序过程结束。第一次有序区为第1个元素，无序区为第2&mdash;N个元素，拿出第2个元素插入到有序区。</p><h2 id=代码-1>代码</h2><p><details><summary>InsertSort</summary></p><pre><code class=language-go>func InsertSort(a []int) {
 	if len(a) &lt; 2 { //一个数或者为空 不用排序
 		return
 	}
@@ -104,7 +104,7 @@ func InsertSortOpt(a []int) {
 		a[pos] = key
 	}
 }
-</code></pre><p></details></p><h2 id=网搜图解-1>网搜图解</h2><p><img src=/Users/ketonghe/blog/public/donate/insertSort.gif alt></p><p>​ 摘自:<a href=https://www.cnblogs.com/onepixel/p/7674659.html>https://www.cnblogs.com/onepixel/p/7674659.html</a></p><h1 id=归并排序>归并排序</h1><h2 id=介绍-2>介绍</h2><p>​ MergeSort 合并两个有序的序列为1的大的有序的序列，最典型的归并排序可以分2个大的步骤：</p><p>1 采用递归思想 将一个大的序列:二分为大致平均的子序列，然后针对每个子序列都再递归二分(最后每个子序列长度都为1)</p><p>2 两两子序列合并为有序序列 直到所有子序列合并完成</p><p>​ 整体归并排序也用到了很重要的分治思想，也就是将大的问题分为小的问题 逐个解决</p><p><img src=/Users/ketonghe/blog/public/donate/mergeSort.png style=zoom:100%></p><h2 id=代码-2>代码</h2><p><details><summary>MergeSort</summary></p><pre><code class=language-go>  func MergeSort(a []int, left int, right int) {
+</code></pre><p></details></p><h2 id=网搜图解-1>网搜图解</h2><p><img src=donate/insertSort.gif alt></p><p>​ 摘自:<a href=https://www.cnblogs.com/onepixel/p/7674659.html>https://www.cnblogs.com/onepixel/p/7674659.html</a></p><h1 id=归并排序>归并排序</h1><h2 id=介绍-2>介绍</h2><p>​ MergeSort 合并两个有序的序列为1的大的有序的序列，最典型的归并排序可以分2个大的步骤：</p><p>1 采用递归思想 将一个大的序列:二分为大致平均的子序列，然后针对每个子序列都再递归二分(最后每个子序列长度都为1)</p><p>2 两两子序列合并为有序序列 直到所有子序列合并完成</p><p>​ 整体归并排序也用到了很重要的分治思想，也就是将大的问题分为小的问题 逐个解决</p><p><img src=donate/mergeSort.png style=zoom:100%></p><h2 id=代码-2>代码</h2><p><details><summary>MergeSort</summary></p><pre><code class=language-go>  func MergeSort(a []int, left int, right int) {
 	//校验
 	if len(a) &lt; 2 || left &lt; 0 || right &gt; len(a) || left &gt;= right {
 		return
@@ -179,7 +179,7 @@ func MergeSlice(a []int, left int, mid int, right int) {
   }
 	MergeSlice(a, left, mid, right) //合并2个子序列为大的有序序列
 }
-</code></pre><p></details></p><h2 id=网搜图解-2>网搜图解</h2><p><img src=/Users/ketonghe/blog/public/donate/mergeSort.gif alt></p><h1 id=选择排序>选择排序</h1><h2 id=介绍-3>介绍</h2><p>​ 每轮都选择一个极值(最大或者最小)放到数组的某一端，其实也是分为有序区和无序区，刚开始全是无序区，</p><p>第1轮 遍历N个数 挑选极值放到数组最左侧 有序区有1个数</p><p>第2轮 遍历剩下的N-1个数，挑选极值放入数组第2个位置，也就是依次放入有序区</p><p>&hellip;</p><p>直到剩下最后一个元素 这个元素自然是整个数组的极值 整个数组排序完成</p><h2 id=代码-3>代码</h2><p><details><summary>SelectSort</summary></p><pre><code class=language-go>  func SelectSort(a []int) {
+</code></pre><p></details></p><h2 id=网搜图解-2>网搜图解</h2><p><img src=donate/mergeSort.gif alt></p><h1 id=选择排序>选择排序</h1><h2 id=介绍-3>介绍</h2><p>​ 每轮都选择一个极值(最大或者最小)放到数组的某一端，其实也是分为有序区和无序区，刚开始全是无序区，</p><p>第1轮 遍历N个数 挑选极值放到数组最左侧 有序区有1个数</p><p>第2轮 遍历剩下的N-1个数，挑选极值放入数组第2个位置，也就是依次放入有序区</p><p>&hellip;</p><p>直到剩下最后一个元素 这个元素自然是整个数组的极值 整个数组排序完成</p><h2 id=代码-3>代码</h2><p><details><summary>SelectSort</summary></p><pre><code class=language-go>  func SelectSort(a []int) {
 	if len(a) &lt; 2 { //一个数或者为空 不用排序
 		return
 	}
@@ -218,7 +218,7 @@ func MergeSlice(a []int, left int, mid int, right int) {
 		a[maxIndex], a[right] = a[right], a[maxIndex]//最大值放到当前无序区最右边
 	}
 }
-</code></pre><p></details></p><h2 id=网搜图解-3>网搜图解</h2><p><img src=/Users/ketonghe/blog/public/donate/SelectSort.gif alt></p><p>​ 摘自： <a href=https://www.cnblogs.com/onepixel/p/7674659.html>https://www.cnblogs.com/onepixel/p/7674659.html</a></p><h1 id=堆排序>堆排序</h1><h2 id=介绍-4>介绍</h2><h3 id=二叉堆介绍>二叉堆介绍</h3><p>堆排序是借助堆这种数据结构进行排序，又分为最大堆和最小堆。堆也分很多种，这里用二叉堆，下面从网上找到的2张图展示下最大堆和最小堆。</p><p><img src=/Users/ketonghe/blog/public/donate/max_min_Heap.jpg alt></p><p>​ 最大堆 所有父节点都<strong>&gt;=</strong>两个子节点 最小堆 所有父节点都<strong>&lt;=</strong>两个子节点</p><p>​ 最大堆 可用于升序排序 最小堆可用于降序排序</p><p>​ 二叉堆实现方式不止一种，这里选择最简单的数组实现，下图展示二叉堆如何用数组存放以及父子节点关系如何对应到数组下标关系。</p><p><img src=/Users/ketonghe/blog/public/donate/heap_imp_array.jpg alt></p><h3 id=堆排序大致过程>堆排序大致过程</h3><ul><li><p>首选遍历数组 构建二叉堆(数组实现)</p></li><li><p>交换堆头尾两个元素，也就是数组头尾元素，最大值放到了数组最后一个元素。因为根节点发生变化</p></li></ul><p>所以重新堆化，范围不包括最后一个元素，最后一个元素相当于已经输出排序完成，为最大值。</p><ul><li>对于重新堆化的前面N-1个元素 循环执行第2步 直到输出所有堆节点 完成最终排序</li></ul><h2 id=代码-4>代码</h2><h3 id=最大堆>最大堆</h3><p><details><summary>MaxHeapSort</summary></p><pre><code class=language-go>func MaxHeapSort(a []int) {
+</code></pre><p></details></p><h2 id=网搜图解-3>网搜图解</h2><p><img src=donate/SelectSort.gif alt></p><p>​ 摘自： <a href=https://www.cnblogs.com/onepixel/p/7674659.html>https://www.cnblogs.com/onepixel/p/7674659.html</a></p><h1 id=堆排序>堆排序</h1><h2 id=介绍-4>介绍</h2><h3 id=二叉堆介绍>二叉堆介绍</h3><p>堆排序是借助堆这种数据结构进行排序，又分为最大堆和最小堆。堆也分很多种，这里用二叉堆，下面从网上找到的2张图展示下最大堆和最小堆。</p><p><img src=donate/max_min_Heap.jpg alt></p><p>​ 最大堆 所有父节点都<strong>&gt;=</strong>两个子节点 最小堆 所有父节点都<strong>&lt;=</strong>两个子节点</p><p>​ 最大堆 可用于升序排序 最小堆可用于降序排序</p><p>​ 二叉堆实现方式不止一种，这里选择最简单的数组实现，下图展示二叉堆如何用数组存放以及父子节点关系如何对应到数组下标关系。</p><p><img src=donate/heap_imp_array.jpg alt></p><h3 id=堆排序大致过程>堆排序大致过程</h3><ul><li><p>首选遍历数组 构建二叉堆(数组实现)</p></li><li><p>交换堆头尾两个元素，也就是数组头尾元素，最大值放到了数组最后一个元素。因为根节点发生变化</p></li></ul><p>所以重新堆化，范围不包括最后一个元素，最后一个元素相当于已经输出排序完成，为最大值。</p><ul><li>对于重新堆化的前面N-1个元素 循环执行第2步 直到输出所有堆节点 完成最终排序</li></ul><h2 id=代码-4>代码</h2><h3 id=最大堆>最大堆</h3><p><details><summary>MaxHeapSort</summary></p><pre><code class=language-go>func MaxHeapSort(a []int) {
   size:=len(a)//数组长度
 	if size &lt; 2 {
 		return
