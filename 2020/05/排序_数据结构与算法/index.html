@@ -1,8 +1,8 @@
-<!doctype html><html lang=zh><head><title>排序_数据结构与算法 - 疯子爱淡定</title><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui"><meta name=renderer content="webkit"><meta http-equiv=cache-control content="no-transform"><meta http-equiv=cache-control content="no-siteapp"><meta name=apple-mobile-web-app-capable content="yes"><meta name=apple-mobile-web-app-status-bar-style content="black"><meta name=format-detection content="telephone=no,email=no,adress=no"><meta name=theme-color content="#000000"><meta http-equiv=window-target content="_top"><meta name=description content="冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两"><meta name=generator content="Hugo 0.59.1 with theme pure"><title>排序_数据结构与算法 - 疯子爱淡定</title><link rel=stylesheet href=http://heketong.github.io/css/style.min.4f147d36519115ced51ecc00535cc74c2890d9ec1818ce30efa4e08cd443285e.css><link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async><meta property="og:title" content="排序_数据结构与算法"><meta property="og:description" content="冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两"><meta property="og:type" content="article"><meta property="og:url" content="http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"><meta property="article:published_time" content="2020-05-13T22:45:46+08:00"><meta property="article:modified_time" content="2020-05-13T22:45:46+08:00"><meta itemprop=name content="排序_数据结构与算法"><meta itemprop=description content="冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两"><meta itemprop=datePublished content="2020-05-13T22:45:46&#43;08:00"><meta itemprop=dateModified content="2020-05-13T22:45:46&#43;08:00"><meta itemprop=wordCount content="4270"><meta itemprop=keywords content="数据结构,算法,排序,"><meta name=twitter:card content="summary"><meta name=twitter:title content="排序_数据结构与算法"><meta name=twitter:description content="冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两"><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script><script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]--></head><body class="main-center theme-black" itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader><div class=slimContent><div class=navbar-header><div class="profile-block text-center"><a id=avatar href=http://heketong.github.io/ target=_blank><img class="img-circle img-rotate" src=http://heketong.github.io/donate/heketong_profile_photo.JPG width=200 height=200></a><h2 id=name class="hidden-xs hidden-sm">heketong</h2><h3 id=title class="hidden-xs hidden-sm hidden-md">程序猿</h3><small id=location class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>guangzhou, China</small></div><div class=search id=search-form-wrap><form class="search-form sidebar-form"><div class=input-group><input type=text class="search-form-input form-control" placeholder=搜索>
+<!doctype html><html lang=zh><head><title>排序_数据结构与算法 - 疯子爱淡定</title><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui"><meta name=renderer content="webkit"><meta http-equiv=cache-control content="no-transform"><meta http-equiv=cache-control content="no-siteapp"><meta name=apple-mobile-web-app-capable content="yes"><meta name=apple-mobile-web-app-status-bar-style content="black"><meta name=format-detection content="telephone=no,email=no,adress=no"><meta name=theme-color content="#000000"><meta http-equiv=window-target content="_top"><meta name=description content="冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两"><meta name=generator content="Hugo 0.59.1 with theme pure"><title>排序_数据结构与算法 - 疯子爱淡定</title><link rel=stylesheet href=http://heketong.github.io/css/style.min.4f147d36519115ced51ecc00535cc74c2890d9ec1818ce30efa4e08cd443285e.css><link rel=stylesheet href=https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css async><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css async><meta property="og:title" content="排序_数据结构与算法"><meta property="og:description" content="冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两"><meta property="og:type" content="article"><meta property="og:url" content="http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"><meta property="article:published_time" content="2020-05-13T22:45:46+08:00"><meta property="article:modified_time" content="2020-05-13T22:45:46+08:00"><meta itemprop=name content="排序_数据结构与算法"><meta itemprop=description content="冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两"><meta itemprop=datePublished content="2020-05-13T22:45:46&#43;08:00"><meta itemprop=dateModified content="2020-05-13T22:45:46&#43;08:00"><meta itemprop=wordCount content="6802"><meta itemprop=keywords content="数据结构,算法,排序,"><meta name=twitter:card content="summary"><meta name=twitter:title content="排序_数据结构与算法"><meta name=twitter:description content="冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两"><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script><script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]--></head><body class="main-center theme-black" itemscope itemtype=http://schema.org/WebPage><header class=header itemscope itemtype=http://schema.org/WPHeader><div class=slimContent><div class=navbar-header><div class="profile-block text-center"><a id=avatar href=http://heketong.github.io/ target=_blank><img class="img-circle img-rotate" src=http://heketong.github.io/donate/heketong_profile_photo.JPG width=200 height=200></a><h2 id=name class="hidden-xs hidden-sm">heketong</h2><h3 id=title class="hidden-xs hidden-sm hidden-md">程序猿</h3><small id=location class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>guangzhou, China</small></div><div class=search id=search-form-wrap><form class="search-form sidebar-form"><div class=input-group><input type=text class="search-form-input form-control" placeholder=搜索>
 <span class=input-group-btn><button type=submit class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button></span></div><div class=ins-search><div class=ins-search-mask></div><div class=ins-search-container><div class=ins-input-wrapper><input type=text class=ins-search-input placeholder=想要查找什么... x-webkit-speech>
 <button type=button class="close ins-close ins-selectable" data-dismiss=modal aria-label=Close><span aria-hidden=true>×</span></button></div><div class=ins-section-wrapper><div class=ins-section-container></div></div></div></div></form></div><button class="navbar-toggle collapsed" type=button data-toggle=collapse data-target=#main-navbar aria-controls=main-navbar aria-expanded=false>
 <span class=sr-only>Toggle navigation</span>
-<span class=icon-bar></span><span class=icon-bar></span><span class=icon-bar></span></button></div><nav id=main-navbar class="collapse navbar-collapse" itemscope itemtype=http://schema.org/SiteNavigationElement role=navigation><ul class="nav navbar-nav main-nav"><li class="menu-item menu-item-home"><a href=/><i class="icon icon-home-fill"></i><span class=menu-title>主页</span></a></li><li class="menu-item menu-item-archives"><a href=/posts/><i class="icon icon-archives-fill"></i><span class=menu-title>文章</span></a></li><li class="menu-item menu-item-categories"><a href=/categories/><i class="icon icon-folder"></i><span class=menu-title>技术总结</span></a></li><li class="menu-item menu-item-tags"><a href=/tags/><i class="icon icon-tags"></i><span class=menu-title>标签</span></a></li><li class="menu-item menu-item-about"><a href=/about/><i class="icon icon-cup-fill"></i><span class=menu-title>关于</span></a></li></ul></nav></div></header><aside class=sidebar itemscope itemtype=http://schema.org/WPSideBar><div class=slimContent><div class=widget><h3 class=widget-title>公告</h3><div class=widget-body><div id=board><div class=content><p>每个不曾起舞的日子,都是对生命的辜负</p></div></div></div></div><div class=widget><h3 class=widget-title>分类</h3><div class=widget-body><ul class=category-list><li class=category-list-item><a href=http://heketong.github.io/categories/test/ class=category-list-link>test</a><span class=category-list-count>1</span></li><li class=category-list-item><a href=http://heketong.github.io/categories/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/ class=category-list-link>技术总结</a><span class=category-list-count>2</span></li></ul></div></div><div class=widget><h3 class=widget-title>标签</h3><div class=widget-body><ul class=tag-list><li class=tag-list-item><a href=http://heketong.github.io/tags/test/ class=tag-list-link>test</a><span class=tag-list-count>1</span></li><li class=tag-list-item><a href=http://heketong.github.io/tags/%E6%8E%92%E5%BA%8F/ class=tag-list-link>排序</a><span class=tag-list-count>1</span></li><li class=tag-list-item><a href=http://heketong.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/ class=tag-list-link>搭建博客</a><span class=tag-list-count>1</span></li><li class=tag-list-item><a href=http://heketong.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/ class=tag-list-link>数据结构</a><span class=tag-list-count>1</span></li><li class=tag-list-item><a href=http://heketong.github.io/tags/%E7%AE%97%E6%B3%95/ class=tag-list-link>算法</a><span class=tag-list-count>1</span></li></ul></div></div><div class=widget><h3 class=widget-title>最新文章</h3><div class=widget-body><ul class="recent-post-list list-unstyled no-thumbnail"><li><div class=item-inner><p class=item-title><a href=http://heketong.github.io/2020/05/create_hugo_blog/ class=title>create_hugo_blog</a></p><p class=item-date><time datetime="2020-05-13 22:45:46 &#43;0800 &#43;0800" itemprop=datePublished>2020-05-13</time></p></div></li><li><div class=item-inner><p class=item-title><a href=http://heketong.github.io/2020/05/test/ class=title>test</a></p><p class=item-date><time datetime="2020-05-13 22:45:46 &#43;0800 &#43;0800" itemprop=datePublished>2020-05-13</time></p></div></li><li><div class=item-inner><p class=item-title><a href=http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/ class=title>排序_数据结构与算法</a></p><p class=item-date><time datetime="2020-05-13 22:45:46 &#43;0800 &#43;0800" itemprop=datePublished>2020-05-13</time></p></div></li></ul></div></div></div></aside><aside class="sidebar sidebar-toc collapse" id=collapseToc itemscope itemtype=http://schema.org/WPSideBar><div class=slimContent><h4 class=toc-title>文章目录</h4><nav id=toc class="js-toc toc"></nav></div></aside><main class=main role=main><div class=content><article id=- class="article article-type-" itemscope itemtype=http://schema.org/BlogPosting><div class=article-header><h1 itemprop=name><a class=article-title href=/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/>排序_数据结构与算法</a></h1><div class=article-meta><span class=article-date><i class="icon icon-calendar-check"></i>&nbsp;
+<span class=icon-bar></span><span class=icon-bar></span><span class=icon-bar></span></button></div><nav id=main-navbar class="collapse navbar-collapse" itemscope itemtype=http://schema.org/SiteNavigationElement role=navigation><ul class="nav navbar-nav main-nav"><li class="menu-item menu-item-home"><a href=/><i class="icon icon-home-fill"></i><span class=menu-title>主页</span></a></li><li class="menu-item menu-item-archives"><a href=/posts/><i class="icon icon-archives-fill"></i><span class=menu-title>文章</span></a></li><li class="menu-item menu-item-categories"><a href=/categories/><i class="icon icon-folder"></i><span class=menu-title>技术总结</span></a></li><li class="menu-item menu-item-tags"><a href=/tags/><i class="icon icon-tags"></i><span class=menu-title>标签</span></a></li><li class="menu-item menu-item-about"><a href=/about/><i class="icon icon-cup-fill"></i><span class=menu-title>关于</span></a></li></ul></nav></div></header><aside class=sidebar itemscope itemtype=http://schema.org/WPSideBar><div class=slimContent><div class=widget><h3 class=widget-title>公告</h3><div class=widget-body><div id=board><div class=content><p>每个不曾起舞的日子,都是对生命的辜负</p></div></div></div></div><div class=widget><h3 class=widget-title>分类</h3><div class=widget-body><ul class=category-list><li class=category-list-item><a href=http://heketong.github.io/categories/marathons/ class=category-list-link>marathons</a><span class=category-list-count>1</span></li><li class=category-list-item><a href=http://heketong.github.io/categories/sport/ class=category-list-link>sport</a><span class=category-list-count>1</span></li><li class=category-list-item><a href=http://heketong.github.io/categories/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/ class=category-list-link>技术总结</a><span class=category-list-count>3</span></li></ul></div></div><div class=widget><h3 class=widget-title>标签</h3><div class=widget-body><ul class=tag-list><li class=tag-list-item><a href=http://heketong.github.io/tags/marathons/ class=tag-list-link>marathons</a><span class=tag-list-count>1</span></li><li class=tag-list-item><a href=http://heketong.github.io/tags/%E6%8E%92%E5%BA%8F/ class=tag-list-link>排序</a><span class=tag-list-count>1</span></li><li class=tag-list-item><a href=http://heketong.github.io/tags/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/ class=tag-list-link>搭建博客</a><span class=tag-list-count>1</span></li><li class=tag-list-item><a href=http://heketong.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/ class=tag-list-link>数据结构</a><span class=tag-list-count>2</span></li><li class=tag-list-item><a href=http://heketong.github.io/tags/%E7%AE%97%E6%B3%95/ class=tag-list-link>算法</a><span class=tag-list-count>1</span></li></ul></div></div><div class=widget><h3 class=widget-title>最新文章</h3><div class=widget-body><ul class="recent-post-list list-unstyled no-thumbnail"><li><div class=item-inner><p class=item-title><a href=http://heketong.github.io/2020/06/marathons/ class=title>100场马拉松</a></p><p class=item-date><time datetime="2020-06-12 22:45:46 &#43;0800 &#43;0800" itemprop=datePublished>2020-06-12</time></p></div></li><li><div class=item-inner><p class=item-title><a href=http://heketong.github.io/2020/05/create_hugo_blog/ class=title>create_hugo_blog</a></p><p class=item-date><time datetime="2020-05-13 22:45:46 &#43;0800 &#43;0800" itemprop=datePublished>2020-05-13</time></p></div></li><li><div class=item-inner><p class=item-title><a href=http://heketong.github.io/2020/05/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/ class=title>常用数据结构</a></p><p class=item-date><time datetime="2020-05-13 22:45:46 &#43;0800 &#43;0800" itemprop=datePublished>2020-05-13</time></p></div></li><li><div class=item-inner><p class=item-title><a href=http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/ class=title>排序_数据结构与算法</a></p><p class=item-date><time datetime="2020-05-13 22:45:46 &#43;0800 &#43;0800" itemprop=datePublished>2020-05-13</time></p></div></li></ul></div></div></div></aside><aside class="sidebar sidebar-toc collapse" id=collapseToc itemscope itemtype=http://schema.org/WPSideBar><div class=slimContent><h4 class=toc-title>文章目录</h4><nav id=toc class="js-toc toc"></nav></div></aside><main class=main role=main><div class=content><article id=- class="article article-type-" itemscope itemtype=http://schema.org/BlogPosting><div class=article-header><h1 itemprop=name><a class=article-title href=/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/>排序_数据结构与算法</a></h1><div class=article-meta><span class=article-date><i class="icon icon-calendar-check"></i>&nbsp;
 <a href=http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/ class=article-date><time datetime="2020-05-13 22:45:46 &#43;0800 &#43;0800" itemprop=datePublished>2020-05-13</time></a></span>
 <span class=article-category><i class="icon icon-folder"></i>&nbsp;
 <a class=article-category-link href=/categories/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/>技术总结</a></span>
@@ -13,8 +13,8 @@
 <span class="article-read hidden-xs"><i class="icon icon-eye-fill" aria-hidden=true></i><span id=busuanzi_container_page_pv><span id=busuanzi_value_page_pv>0</span></span></span>
 <span class="article-read hidden-xs"><i class="icon icon-eye-fill" aria-hidden=true></i><span id=http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/ class=leancloud_visitors data-flag-title=排序_数据结构与算法><span class=leancloud-visitors-count>0</span></span></span>
 <span class=post-comment><i class="icon icon-comment"></i>&nbsp;<a href=/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/#comments class=article-comment-link>评论</a></span>
-<span class="post-wordcount hidden-xs" itemprop=wordCount>字数统计: 4270字</span>
-<span class="post-readcount hidden-xs" itemprop=timeRequired>阅读时长: 9分</span></div></div><div class="article-entry marked-body js-toc-content" itemprop=articleBody><h1 id=冒泡排序>冒泡排序</h1><h2 id=介绍>介绍</h2><p>​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两个数，前面的数大于后面的数，则交换，将较大的数挪动到后面</p><ul><li>第1轮: 比较1 &ndash; N 经过依次相邻两两比较交换 最大的数则放到了最后</li><li>第2轮: 比较1 &ndash;N-1 经过依次相邻两两比较交换 第2大的数则放到了N-1的位置</li><li>第N-1轮:比较1 &ndash; 2 前2个数两两比较交换 整个过程完成</li></ul><h2 id=代码>代码</h2><p><details><summary>BubbleSort</summary></p><pre><code class=language-go>func BubbleSort(a []int) {
+<span class="post-wordcount hidden-xs" itemprop=wordCount>字数统计: 6802字</span>
+<span class="post-readcount hidden-xs" itemprop=timeRequired>阅读时长: 14分</span></div></div><div class="article-entry marked-body js-toc-content" itemprop=articleBody><h1 id=冒泡排序>冒泡排序</h1><h2 id=介绍>介绍</h2><p>​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两个数，前面的数大于后面的数，则交换，将较大的数挪动到后面</p><ul><li>第1轮: 比较1 &ndash; N 经过依次相邻两两比较交换 最大的数则放到了最后</li><li>第2轮: 比较1 &ndash;N-1 经过依次相邻两两比较交换 第2大的数则放到了N-1的位置</li><li>第N-1轮:比较1 &ndash; 2 前2个数两两比较交换 整个过程完成</li></ul><h2 id=代码>代码</h2><p><details><summary>BubbleSort</summary></p><pre><code class=language-go>func BubbleSort(a []int) {
 	if len(a) &lt; 2 { //一个数或者为空 不用排序
 		return
 	}
@@ -84,14 +84,6 @@ func InsertSortOpt(a []int) {
 	if len(a) &lt; 2 { //一个数或者为空 不用排序
 		return
 	}
-	// for j := 1; j &lt; len(a); j++ {
-	// 	for i := j; i &gt; 0; i-- {
-	// 		if a[i] &lt; a[i-1] {
-	// 			a[i], a[i-1] = a[i-1], a[i]
-	// 		}
-	// 	}
-	// }
-	//优化后
 	for j := 1; j &lt; len(a); j++ {
 		begin, end, key := 0, j-1, a[j]
 		//找到插入的位置
@@ -238,23 +230,23 @@ func MaxHeapInsert(a []int, index int) {
 		a[index], a[parentIndex] = a[parentIndex], a[index]
 	}
 }
-//重新堆化
-func MinHeapify(a []int, index int, size int) {
-	for minIndex := -1; minIndex != index; {
-		minIndex = index
+  //大堆 重新堆化过程
+func MaxHeapify(a []int, index int, size int) {
+	for maxIndex := -1; maxIndex != index; {
+		maxIndex = index
 		leftIndex := 2*index + 1
 		rightIndex := 2*index + 2
-		//求当前节点 左孩子 右孩子中最小值对应的下标
-		if leftIndex &lt; size &amp;&amp; a[minIndex] &gt; a[leftIndex] {
-			minIndex = leftIndex
+		//求当前节点 左孩子 右孩子中最大值对应的下标
+		if leftIndex &lt; size &amp;&amp; a[maxIndex] &lt; a[leftIndex] {
+			maxIndex = leftIndex
 		}
-		if rightIndex &lt; size &amp;&amp; a[minIndex] &gt; a[rightIndex] {
-			minIndex = rightIndex
+		if rightIndex &lt; size &amp;&amp; a[maxIndex] &lt; a[rightIndex] {
+			maxIndex = rightIndex
 		}
-		if minIndex != index {
-			a[index], a[minIndex] = a[minIndex], a[index] //跟左孩子、右孩子中最小的交换
-			index = minIndex
-			minIndex = -1
+		if maxIndex != index {
+			a[index], a[maxIndex] = a[maxIndex], a[index] //跟左孩子、右孩子中最大的交换
+			index = maxIndex
+			maxIndex = -1
 		}
 	}
 }
@@ -305,17 +297,138 @@ func MinHeapify(a []int, index int, size int) {
 		}
 	}
 }
-</code></pre><p></details></p><h2 id=优化-4>优化</h2><p><details><summary>堆排序优化</summary></p><pre><code class=language-go>  func MergeSortDown2Up(a []int, left int, right int) {
-	//一个数  为空 下标不合法 拆分完成
-	if len(a) &lt; 2 || left &lt; 0 || right &gt; len(a) || left &gt;= right {
-		return
+</code></pre><p></details></p><h2 id=时间复杂度-4>时间复杂度</h2><p>​ O(NlogN)</p><h2 id=算法稳定性-3>算法稳定性</h2><p>​ 不稳定</p><h2 id=优化-4>优化</h2><p>​ 当前实现的就是原地堆排序，没有使用额外的辅助空间，暂无好的优化思路，待补充</p><h2 id=网搜图解-4>网搜图解</h2><p><img src=http://heketong.github.io/donate/heap_sort.gif alt></p><h1 id=希尔排序>希尔排序</h1><h2 id=介绍-5>介绍</h2><p>​ 希尔排序是直接插入排序的优化版本，由一个叫shell的人提出来的，核心思想是按照步长分组，然后每组分组插排，然后缩短步长分组，继续每组插排，最后步长为1，变为直接插排。</p><p>​ 关于步长及缩短步长如何选择，有很多种方案，可以直接分半，然后再除以2 最后为1，这里采用的Knuth序列，也就是按照下面的规律递增</p><p>gap=1&mdash;&ndash;&gt;&gt;gap=3*gap+1</p><h2 id=代码-5>代码</h2><p><details><summary>ShellSort</summary></p><pre><code class=language-go>  func ShellSort(a []int) {
+	//步长采用knuth序列 变化规律为 h=1 ---&gt; h = 3*h+1
+	h := 1
+	for h &lt;= len(a)/3 {
+		h = 3*h + 1
 	}
-	for time := 1; time &lt;= right; time = time * 2 {
-		MergeGroup(a, right, time)
+	//控制gap递减 最后变为1
+	for gap := h; gap &gt; 0; gap = (gap - 1) / 3 {
+		//控制分组
+		for j := gap; j &lt; len(a); j++ {
+			//每组进行直接插排
+			for i := j; i &gt; gap-1; i = i - gap {
+				if a[i] &lt; a[i-gap] {
+					a[i], a[i-gap] = a[i-gap], a[i]
+				}
+			}
+		}
 	}
 }
-</code></pre><p></details></p></div><div class=article-footer><blockquote class=mt-2x><ul class="post-copyright list-unstyled"><li class="post-copyright-link hidden-xs"><strong>本文链接:</strong>
-<a href=http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/ title=排序_数据结构与算法 target=_blank rel=external>http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</a></li><li class=post-copyright-license><strong>License：</strong><a href=http://creativecommons.org/licenses/by/4.0/deed.zh target=_blank rel=external>CC BY 4.0 CN</a></li></ul></blockquote><div class="panel panel-default panel-badger"><div class=panel-body><figure class=media><div class=media-left><a href=http://heketong.github.io/ target=_blank class="img-burn thumb-sm visible-lg"><img src=http://heketong.github.io/donate/heketong_profile_photo.JPG class="img-rounded w-full" alt></a></div><div class=media-body><h3 class=media-heading><a href=http://heketong.github.io/ target=_blank><span class=text-dark>heketong</span><small class=ml-1x>程序猿</small></a></h3><div>Good Good Study, Day Day Up~</div></div></figure></div></div></div></article><section id=comments><div id=vcomments></div></section></div><nav class="bar bar-footer clearfix" data-stick-bottom><div class=bar-inner><ul class="pager pull-left"><li class=prev><a href=http://heketong.github.io/about/ title=关于我><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;下一篇</span></a></li><li class=next><a href=http://heketong.github.io/2020/05/test/ title=test><span>上一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a></li><li class=toggle-toc><a class="toggle-btn collapsed" data-toggle=collapse href=#collapseToc aria-expanded=false title=文章目录 role=button><span>[&nbsp;</span><span>文章目录</span>
+</code></pre><p></details></p><h2 id=时间复杂度-5>时间复杂度</h2><p>O($N^<sup>3</sup>&frasl;<sub>2</sub>$)</p><h2 id=算法稳定性-4>算法稳定性</h2><p>​ 不稳定</p><h2 id=优化-5>优化</h2><p>​ 待补充</p><h2 id=网搜图解-5>网搜图解</h2><p><img src=http://heketong.github.io/donate/shell_sort.gif alt></p><h1 id=快速排序>快速排序</h1><h2 id=介绍-6>介绍</h2><p>​ 快速排序主要用到了分治和递归思想，跟归并排序差不多，快速排序一般要选择一个基准值(pivot),然后将小于这个基准的放左边，大于这个基准的放右边，基准值放那边无所谓，这样一轮下来，数组分成了2个区域，左边区域比右边区域小，然后对2个区域用递归的方法继续快排。</p><p>​ 这里的快速用荷兰国旗问题分成了3个区域，<pivot |="=pivot" |>pivot 然后递归 <pivot 和>pivot的区域 继续分区快排序</p><p>​ 关于基准值的选取可以有很多种，可以随机选取，可以最前面的，可以最后面的，这里采用的是最常见(选取最末端元素)</p><h2 id=代码-6>代码</h2><p><details><summary>QuickSort</summary></p><pre><code class=language-go>  func QuickSort(a []int, left int, right int) {
+	if len(a) &lt; 2 || left &gt;= right {
+		return
+	}
+	base := a[right] //基准选取最末端元素
+	equalArea := PartitionIntSlice(a, left, right, base)
+	QuickSort(a, left, equalArea[0]-1)  //递归快排小于区间
+	QuickSort(a, equalArea[1]+1, right) //递归快排大于区间
+}
+ //PartitionIntSlice 给定一个数组，左边界left 右边界right 比较基准base
+//返回一个2个数值的int数组 该数组第一个值为等于base的开始位置 第二个值为等于base的结束位置
+//所以下标小于该数组第一个值的区间都小于base 下标大于数组第二个值的区间都大于base
+func PartitionIntSlice(a []int, left int, right int, base int) [2]int {
+	l := left - 1  //l为小于区间的结束下标 刚开始指向最小下标左边
+	r := right + 1 //l为大于区间的开始下标 刚开始指向最大下标右边
+	cur := left    //当前遍历的数设置为整个区间最左边
+	for cur &lt; r {
+		if a[cur] &lt; base { //如果当前数小于基数 当前数和小于区间的下一个数交换 小于区间扩一个
+			a[cur], a[l+1] = a[l+1], a[cur]
+			l++
+			cur++
+		} else if a[cur] &gt; base { //如果当前数大于基数 则cur下标++
+			a[cur], a[r-1] = a[r-1], a[cur]
+			r--
+		} else { //当前数跟基数相等 不变
+			cur++
+		}
+	}
+	return [2]int{l + 1, r - 1}
+}
+</code></pre><p></details></p><h2 id=时间复杂度-6>时间复杂度</h2><p>​ O(NlogN)</p><h2 id=算法稳定性-5>算法稳定性</h2><p>​ 不稳定</p><h2 id=优化-6>优化</h2><p>​ 可以选择双轴快排序，也就是选择2个base(不相同,相同的话就又变成了荷兰国旗) 分区为 <minbase | minbase<=&& <=maxBase |>maxbase</p><p>代码后续补充</p><h2 id=网搜图解-6>网搜图解</h2><p><img src=http://heketong.github.io/donate/quick_sort.gif alt></p><h1 id=计数排序>计数排序</h1><h2 id=介绍-7>介绍</h2><p>​ 计数排序的应用场景比较清晰，也是桶排序的一种。明确的知道一个数组有N的整数，量比较大，但是数据范围比较小 都是[0,MAX), 然后创建一个计数数组，长度为MAX,计数数组值都初始化为0，然后遍历原数组，将原数组的值和计数数组的下标对应起来，比如原数组某个元素值为1，则计数数组下标为1的元素加1，表示1的元素出现过一次，这个步骤可以叫做入桶。然后顺序遍历计数数组，如果该下标的元素出现过(也就是值&gt;0)，数组元素值为多少，则该下标出桶多少次，依次填回原数组即可。</p><p>​</p><h2 id=代码-7>代码</h2><p><details><summary>CountingSort</summary></p><pre><code class=language-go>  func CountSort(a []int, max int) {
+	if len(a) &lt; 2 {
+		return
+	}
+	count := make([]int, max, max) //创建计数的桶
+	for i := 0; i &lt; len(a); i++ {
+		count[a[i]]++
+	}
+	indexOfa := 0
+	for i := 0; i &lt; len(count); i++ {
+		for count[i] &gt; 0 {
+			a[indexOfa] = i
+			indexOfa++
+			count[i]--
+		}
+	}
+}
+</code></pre><p></details></p><h2 id=时间复杂度-7>时间复杂度</h2><p>O(N)</p><h2 id=算法稳定性-6>算法稳定性</h2><p>​ 直接计数排序本身是不稳定的，如果采用累加计数数组，然后倒序遍历原数组结合累加计数数组 则可以实现成稳定的，下面优化版本给出了一个稳定版本</p><h2 id=优化-7>优化</h2><p>​ 分桶方法可以有很多种，比如0号桶 存放0-9数据 1号桶存放10-19等等都是可以的，每个桶可以再放一个数组 然后对于这个数组进行快排或者插排之类的</p><p>如果某个桶数量太大，可以针对这个桶继续分桶等等 这里不再赘述，后续有兴趣再补充。</p><p>这里列出一个稳定版本的计数排序</p><p><details><summary>CountSortStable</summary></p><pre><code class=language-go>//CountSortStable 桶排序的一种  应用场景 知道一个数组有N个整数 并且范围都是[0 ,MAX)
+//也就是量大 但是数据范围比较小  稳定版本 采用累加计数数组+倒序遍历原数组
+func CountSortStable(a []int, max int) {
+	if len(a) &lt; 2 {
+		return
+	}
+	count := make([]int, max, max) //创建桶
+	for i := 0; i &lt; len(a); i++ {
+		count[a[i]]++
+	}
+	//累加计数数组 从下标1开始 其值等于count[i]+count[i-1]
+	for i := 1; i &lt; len(count); i++ {
+		count[i] += count[i-1] //记录原数组元素在原数组出现的最后一个位置
+	}
+	//然后倒序遍历原数组 这里要用到一个附加数组
+	help := make([]int, len(a), len(a))
+	for k := len(a) - 1; k &gt;= 0; k-- {
+		count[a[k]]--
+		lastIndex := count[a[k]] //这里为了代码好理解 多写一行
+		help[lastIndex] = a[k]
+	}
+	for i := 0; i &lt; len(help); i++ {
+		a[i] = help[i]
+	}
+}
+</code></pre><p></details></p><h2 id=网搜图解-7>网搜图解</h2><p><img src=http://heketong.github.io/donate/bucket_sort.png alt></p><h1 id=基数排序>基数排序</h1><h2 id=介绍-8>介绍</h2><p>​ 基数排序也是桶排序的一种，主要思想是按照低优先级先排序 然后再按照高优先级再排序，最后完成排序。</p><p>比如整数排序，先按照个位排序，再按照十位排序 再按照百位、千位排序，可以参看图解，比较一目了然</p><h2 id=代码-8>代码</h2><p><details><summary>RadixSort</summary></p><pre><code class=language-go>  //GetMax 返回数组中的最大值
+func GetMax(a []int) int {
+	max := a[0]
+	for i := 1; i &lt; len(a); i++ {
+		if a[i] &gt; max {
+			max = a[i]
+		}
+	}
+	return max
+}
+//radixSort 传入按照什么基数排序 1 个位 10十位 100百位...
+func radixSort(a []int, radix int) {
+	help := make([]int, len(a), len(a))
+	//无论是个位、十位、百位... 都只有0-9 10个数字 所以准备10个桶
+	bucket := make([]int, 10, 10)
+	for i := 0; i &lt; len(a); i++ {
+		radixNum := (a[i] / radix) % 10 //得到某个基数位的数字  比如345 传入radix是1 也就是个位数也就是3
+		bucket[radixNum]++
+	} //这个for循环完成 也就完成了个位数桶计数  比如bucket[1]=3 也就是个位数是1的数字有3个
+	for j := 1; j &lt; len(bucket); j++ {
+		bucket[j] += bucket[j-1]
+	} //这个for循环完成 桶计数含义发生改变 bucket[1]=3表示个位数&lt;=1的数字有3个
+	//倒序遍历原数组 按照基数位排序后输出到辅助数组
+	for k := len(a) - 1; k &gt;= 0; k-- {
+		bucket[(a[k]/radix)%10]--
+		help[bucket[(a[k]/radix)%10]] = a[k]
+	}
+	for i := 0; i &lt; len(a); i++ {
+		a[i] = help[i]
+	}
+}
+//RadixSort 基数排序 先按照个位排序 再按照10位排序 再按照百位排序 ...
+func RadixSort(a []int) {
+	max := GetMax(a)
+	for radix := 1; max/radix &gt; 0; radix *= 10 {
+		radixSort(a, radix) //依次按照个位 十位 百位 ...排序
+	}
+}
+</code></pre><p></details></p><h2 id=时间复杂度-8>时间复杂度</h2><p>​ O(X*2N) 这里的X 主要是指分了多少个基数 比如个位、十位、百位 那X=3 对于每个基数 内部都至少需要2N的时间复杂度</p><h2 id=算法稳定性-7>算法稳定性</h2><p>​ 上面实现的是稳定的 就是采用累加计数 然后倒序遍历数组的方法</p><h2 id=优化-8>优化</h2><p>​ 待补充</p><h2 id=网搜图解-8>网搜图解</h2><p><img src=http://heketong.github.io/donate/radix_sort.jpg alt></p><h1 id=桶排序>桶排序</h1><h2 id=介绍-9>介绍</h2><pre><code>计数排序和基数排序是最常见的2种桶排序思想，不是基于比较的排序思想，桶排序的前提假设大致如下：
+</code></pre><ol><li>假设原数据是大值均匀分布的 量也比较大</li><li>在原数据上建立1个函数映射关系 将原数据映射到有限个数的桶上</li><li>然后针对每个桶再想办法排序(比如插排、快排等)</li><li>最后按照桶顺序依次输出桶里的元素 就完成了整个排序</li></ol><h2 id=代码-9>代码</h2><p>​ 这里不写代码了</p><h2 id=时间复杂度-9>时间复杂度</h2><p>​ 去掉常数项就是O(N)</p><h2 id=算法稳定性-8>算法稳定性</h2><p>可以做到稳定</p><h2 id=优化-9>优化</h2><p>待补充</p><h2 id=网搜图解-9>网搜图解</h2><p>待补充</p></div><div class=article-footer><blockquote class=mt-2x><ul class="post-copyright list-unstyled"><li class="post-copyright-link hidden-xs"><strong>本文链接:</strong>
+<a href=http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/ title=排序_数据结构与算法 target=_blank rel=external>http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</a></li><li class=post-copyright-license><strong>License：</strong><a href=http://creativecommons.org/licenses/by/4.0/deed.zh target=_blank rel=external>CC BY 4.0 CN</a></li></ul></blockquote><div class="panel panel-default panel-badger"><div class=panel-body><figure class=media><div class=media-left><a href=http://heketong.github.io/ target=_blank class="img-burn thumb-sm visible-lg"><img src=http://heketong.github.io/donate/heketong_profile_photo.JPG class="img-rounded w-full" alt></a></div><div class=media-body><h3 class=media-heading><a href=http://heketong.github.io/ target=_blank><span class=text-dark>heketong</span><small class=ml-1x>程序猿</small></a></h3><div>Good Good Study, Day Day Up~</div></div></figure></div></div></div></article><section id=comments><div id=vcomments></div></section></div><nav class="bar bar-footer clearfix" data-stick-bottom><div class=bar-inner><ul class="pager pull-left"><li class=prev><a href=http://heketong.github.io/about/ title=关于我><i class="icon icon-angle-left" aria-hidden=true></i><span>&nbsp;&nbsp;下一篇</span></a></li><li class=next><a href=http://heketong.github.io/2020/05/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/ title=常用数据结构><span>上一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden=true></i></a></li><li class=toggle-toc><a class="toggle-btn collapsed" data-toggle=collapse href=#collapseToc aria-expanded=false title=文章目录 role=button><span>[&nbsp;</span><span>文章目录</span>
 <i class="text-collapsed icon icon-anchor"></i><i class="text-in icon icon-close"></i><span>]</span></a></li></ul><button type=button class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning" data-toggle=modal data-target=#donateModal><span>赏</span></button><div class=bar-right><div class=share-component data-sites=weibo,qq,wechat,facebook,twitter data-mobile-sites=weibo,qq,qzone></div></div></div></nav><div class="modal modal-center modal-small modal-xs-full fade" id=donateModal tabindex=-1 role=dialog><div class=modal-dialog role=document><div class="modal-content donate"><button type=button class=close data-dismiss=modal aria-label=Close><span aria-hidden=true>&times;</span></button><div class=modal-body><div class=donate-box><div class=donate-head><p>感谢您的支持,我会继续努力的!</p></div><div class=tab-content><div role=tabpanel class="tab-pane fade active in" id=alipay><div class=donate-payimg><img src=http://heketong.github.io/donate/alipayimg.JPG alt=扫码支持 title=扫一扫></div><p class="text-muted mv">扫码打赏, 多少你说了算~</p><p class=text-grey>打开支付宝扫一扫，即可进行扫码打赏哦~</p></div><div role=tabpanel class="tab-pane fade" id=wechatpay><div class=donate-payimg><img src=http://heketong.github.io/donate/wechatpayimg.JPG alt=扫码支持 title=扫一扫></div><p class="text-muted mv">扫码打赏, 多少你说了算~</p><p class=text-grey>打开微信扫一扫，即可进行扫码打赏哦</p></div></div><div class=donate-footer><ul class="nav nav-tabs nav-justified" role=tablist><li role=presentation class=active><a href=#alipay id=alipay-tab role=tab data-toggle=tab aria-controls=alipay aria-expanded=true><i class="icon icon-alipay"></i>支付宝</a></li><li role=presentation><a href=#wechatpay role=tab id=wechatpay-tab data-toggle=tab aria-controls=wechatpay aria-expanded=false><i class="icon icon-wepay"></i>微信支付</a></li></ul></div></div></div></div></div></div></main><footer class=footer itemscope itemtype=http://schema.org/WPFooter><ul class=social-links><li><a href=https://github.com/heketong target=_blank title=github data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li><li><a href=http://heketong.github.io/index.xml target=_blank title=rss data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li></ul><div class=copyright>&copy;2017 -
 2020<div class=publishby>Theme by <a href=https://github.com/xiaoheiAh target=_blank>xiaoheiAh </a>base on<a href=https://github.com/xiaoheiAh/hugo-theme-pure target=_blank> pure</a>.</div></div></footer><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script><script type=text/x-mathjax-config>
     MathJax.Hub.Config({
