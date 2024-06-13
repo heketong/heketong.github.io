@@ -1,1 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>设计模式 on 疯子爱淡定</title><link>http://heketong.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link><description>Recent content in 设计模式 on 疯子爱淡定</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 13 May 2020 22:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>100场马拉松</title><link>http://heketong.github.io/2020/06/marathons/</link><pubDate>Fri, 12 Jun 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/06/marathons/</guid><description>100-Marathons 1 广州花都半马赛事 2019.2.24 ​ 【广州花都摇滚马组委会】祝贺贺 克通 完成2019广州花都摇滚马拉松半程马拉松项目，参赛号：C11949，枪声成绩：02</description></item><item><title>create_hugo_blog</title><link>http://heketong.github.io/2020/05/create_hugo_blog/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/create_hugo_blog/</guid><description>搭建hugo静态博客记录 1 安装Hugo 我这里是imac所以就直接用brew 其它操作系统也很简单 百度一下一把 brew install hugo 2 初始化站点目录 先cd到你想</description></item><item><title>TCP/IP</title><link>http://heketong.github.io/2020/05/tcp_ip/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/tcp_ip/</guid><description>相关历史及分成模型 历史介绍 1969年 美国担心敌人会摧毁自己的网络，所以国防部高级研究计划局（Advanced Research Projects Agency，ARPA）下决</description></item><item><title>分布式</title><link>http://heketong.github.io/2020/05/%E5%88%86%E5%B8%83%E5%BC%8F/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E5%88%86%E5%B8%83%E5%BC%8F/</guid><description>一些概念回顾 缓存穿透 概念： 缓存没有数据，而且数据库也没有数据。 ​ 当这种情况大量出现或被恶意攻击时，接口的访问全部透过Redis访问数据库，而</description></item><item><title>常用数据结构</title><link>http://heketong.github.io/2020/05/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid><description>时间复杂度 常数时间操作O(1) 操作时间是固定的次数，跟数据量本身没有关系，就是其时间复杂度是O(1),比如总是比较1次或者3次，比如总是累加</description></item><item><title>排序_数据结构与算法</title><link>http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</guid><description>冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两</description></item><item><title>网络高并发</title><link>http://heketong.github.io/2020/05/%E9%AB%98%E5%B9%B6%E5%8F%91/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E9%AB%98%E5%B9%B6%E5%8F%91/</guid><description>高并发性能相关指标或术语回顾 连接相关 服务端能保持，管理，处理多少客户端的连接 活跃连接数：所有ESTABLISHED状态的TCP连接，某个瞬时</description></item><item><title>设计模式</title><link>http://heketong.github.io/2020/05/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</guid><description>设计模式介绍 设计模式最关键的作用是为了可复用，减少开发工作量。 模式就是针对现实世界重复出现的问题，给出核心解决方案，忽略掉一些不重要的细节。</description></item><item><title>关于我</title><link>http://heketong.github.io/about/</link><pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate><guid>http://heketong.github.io/about/</guid><description>常用邮箱 18929579649@163.com 欢迎骚扰 想说的话: 每个不曾起舞的日子，都是对生命的辜负 特别喜欢这个翻译 像疯子一样追求自己的梦想，遇到不开心也希望自己无比淡定 多向小</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>设计模式 on 疯子爱淡定</title>
+    <link>http://heketong.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
+    <description>Recent content in 设计模式 on 疯子爱淡定</description>
+    <image>
+      <title>疯子爱淡定</title>
+      <url>http://heketong.github.io/images/papermod-cover.png</url>
+      <link>http://heketong.github.io/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 13 May 2020 22:45:46 +0800</lastBuildDate>
+    <atom:link href="http://heketong.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>设计模式</title>
+      <link>http://heketong.github.io/posts/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate>
+      <guid>http://heketong.github.io/posts/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</guid>
+      <description>设计模式介绍 设计模式最关键的作用是为了可复用，减少开发工作量。
+模式就是针对现实世界重复出现的问题，给出核心解决方案，忽略掉一些不重要的细节。
+分解和抽象是2种解决现实问题的通用方法。
+底层思维是向下的，多数是理解计算机的，抽象是向上思维，多数是理解现实世界的。
+在现实工程开发中，要寻找需求频繁变化点，应用对应的设计模式，从而提高代码复用性，降低开发成本，测试成本。
+设计模式的应用不宜先入为主，最好是Refactoring to Patterns 也就是针对现实的痛点(变化点)，重构到设计模式
+重构的关键技巧 静态&amp;mdash;-动态 早绑定&amp;mdash;-晚绑定 继承&amp;mdash;&amp;ndash;组合 编译时依赖&amp;mdash;-运行时依赖 紧耦合&amp;mdash;-松耦合 面向对象设计原则 重新认识面向对象 理解隔离变化
+宏观层面来看 面向对象的构建方式能够适应软件的变化，能将变化带来的影响减为最小
+各司其职
+微观层面来说，面向对象更强调独立的各个类
+需求变化带来的新增类 不应该改变原来类的功能，也就是每个类各司其职
+对象到底是什么
+从语言的角度来说，对象封装了代码和数据
+从规格层面来说，对象是一些列可以使用的公共接口
+从概念层面来说，对象是拥有某种责任的抽象
+1 依赖倒置原则(DIP) 高层模块(往往是稳定的)不应该依赖底层模块(往往是不停的变化的)，二者都应该依赖于抽象。
+抽象(稳定)不应该依赖于实现细节(变化)，实现细节应该依赖于抽象(稳定)
+2 开放封闭原则(OCP) 对于扩展是开放的，对于修改是封闭的 类模块应该是是可以扩展的，但是不能修改。 在设计之初应该考虑其扩展性，不应该因为新增一个功能，反而要更改原先的功能，应该让新增功能为扩展，不应该修改原先的代码。
+3 单一职责原则(SRP) 一个类应该仅有一个引起其变化的原因 其变化的原因 往往就是其该承担的责任。 4 Liskov替换原则(LSP) 子类必须能够替换它的父类(IS-A) 继承表达类型抽象 5 接口隔离原则(ISP) 不应该强迫客户程序依赖他们不使用的方法 接口应该小而完备 6 优先使用对象组合 而不是类继承 类继承通常是白箱复用 对象组合通常为黑箱复用 继承在某种程度上破坏了封装性，子类父类耦合度较高 对象组合只要求被组合的对象有良好的接口定义，耦合度低 7 封装变化点 使用封装来创建对象之间的分界层，让设计者可以在分界层一侧修改，不影响另外一侧，实现分层间的松耦合。
+封装其实是封装变化点。
+8 针对接口编程，不要针对实现编程 不将变量声明为特定的类，而是声明为接口。 客户程序不需要知道对象具体类型，只需要知道其开放的接口 减少各部分依赖关系，实现高内聚 松耦合 产业强盛 最好是接口相当标准化。 模版方法Template method&amp;mdash;组件协作 需求背景： 需要实现多个app，都需要5个操作步骤(5个步骤操作顺序也都是固定的),有3个已经有框架或者library库实现了，实现这个app</description>
+    </item>
+  </channel>
+</rss>

@@ -1,1 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网络高并发 on 疯子爱淡定</title><link>http://heketong.github.io/tags/%E7%BD%91%E7%BB%9C%E9%AB%98%E5%B9%B6%E5%8F%91/</link><description>Recent content in 网络高并发 on 疯子爱淡定</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 13 May 2020 22:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/tags/%E7%BD%91%E7%BB%9C%E9%AB%98%E5%B9%B6%E5%8F%91/index.xml" rel="self" type="application/rss+xml"/><item><title>100场马拉松</title><link>http://heketong.github.io/2020/06/marathons/</link><pubDate>Fri, 12 Jun 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/06/marathons/</guid><description>100-Marathons 1 广州花都半马赛事 2019.2.24 ​ 【广州花都摇滚马组委会】祝贺贺 克通 完成2019广州花都摇滚马拉松半程马拉松项目，参赛号：C11949，枪声成绩：02</description></item><item><title>create_hugo_blog</title><link>http://heketong.github.io/2020/05/create_hugo_blog/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/create_hugo_blog/</guid><description>搭建hugo静态博客记录 1 安装Hugo 我这里是imac所以就直接用brew 其它操作系统也很简单 百度一下一把 brew install hugo 2 初始化站点目录 先cd到你想</description></item><item><title>TCP/IP</title><link>http://heketong.github.io/2020/05/tcp_ip/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/tcp_ip/</guid><description>相关历史及分成模型 历史介绍 1969年 美国担心敌人会摧毁自己的网络，所以国防部高级研究计划局（Advanced Research Projects Agency，ARPA）下决</description></item><item><title>分布式</title><link>http://heketong.github.io/2020/05/%E5%88%86%E5%B8%83%E5%BC%8F/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E5%88%86%E5%B8%83%E5%BC%8F/</guid><description>一些概念回顾 缓存穿透 概念： 缓存没有数据，而且数据库也没有数据。 ​ 当这种情况大量出现或被恶意攻击时，接口的访问全部透过Redis访问数据库，而</description></item><item><title>常用数据结构</title><link>http://heketong.github.io/2020/05/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid><description>时间复杂度 常数时间操作O(1) 操作时间是固定的次数，跟数据量本身没有关系，就是其时间复杂度是O(1),比如总是比较1次或者3次，比如总是累加</description></item><item><title>排序_数据结构与算法</title><link>http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</guid><description>冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两</description></item><item><title>网络高并发</title><link>http://heketong.github.io/2020/05/%E9%AB%98%E5%B9%B6%E5%8F%91/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E9%AB%98%E5%B9%B6%E5%8F%91/</guid><description>高并发性能相关指标或术语回顾 连接相关 服务端能保持，管理，处理多少客户端的连接 活跃连接数：所有ESTABLISHED状态的TCP连接，某个瞬时</description></item><item><title>设计模式</title><link>http://heketong.github.io/2020/05/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</guid><description>设计模式介绍 设计模式最关键的作用是为了可复用，减少开发工作量。 模式就是针对现实世界重复出现的问题，给出核心解决方案，忽略掉一些不重要的细节。</description></item><item><title>关于我</title><link>http://heketong.github.io/about/</link><pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate><guid>http://heketong.github.io/about/</guid><description>常用邮箱 18929579649@163.com 欢迎骚扰 想说的话: 每个不曾起舞的日子，都是对生命的辜负 特别喜欢这个翻译 像疯子一样追求自己的梦想，遇到不开心也希望自己无比淡定 多向小</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>网络高并发 on 疯子爱淡定</title>
+    <link>http://heketong.github.io/tags/%E7%BD%91%E7%BB%9C%E9%AB%98%E5%B9%B6%E5%8F%91/</link>
+    <description>Recent content in 网络高并发 on 疯子爱淡定</description>
+    <image>
+      <title>疯子爱淡定</title>
+      <url>http://heketong.github.io/images/papermod-cover.png</url>
+      <link>http://heketong.github.io/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 13 May 2020 22:45:46 +0800</lastBuildDate>
+    <atom:link href="http://heketong.github.io/tags/%E7%BD%91%E7%BB%9C%E9%AB%98%E5%B9%B6%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>网络高并发</title>
+      <link>http://heketong.github.io/posts/%E9%AB%98%E5%B9%B6%E5%8F%91/</link>
+      <pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate>
+      <guid>http://heketong.github.io/posts/%E9%AB%98%E5%B9%B6%E5%8F%91/</guid>
+      <description>高并发性能相关指标或术语回顾 连接相关 服务端能保持，管理，处理多少客户端的连接
+活跃连接数：所有ESTABLISHED状态的TCP连接，某个瞬时，这些连接正在传输数据。如果您采用的是长连接的情况，一个连接会同时传输多个请求。也可以间接考察后端服务并发处理能力，注意不同于并发量。 非活跃连接数：表示除ESTABLISHED状态的其它所有状态的TCP连接数。 并发连接数：所有建立的TCP连接数量。=活跃连接数+非活跃连接数。 新建连接数：在统计周期内，从客户端连接到服务器端，新建立的连接请求的平均数。主要考察应对 突发流量或从正常到高峰流量的能力。如：秒杀、抢票场景。 丢弃连接数：每秒丢弃的连接数。如果连接服务器做了连接熔断处理，这部分数据即熔断的连接 在linux上socket连接体现上就是文件描述符，高并发中相关的参数一定要调优。
+流量相关 ​ 主要是网络带宽的配置。
+流入流量：从外部访问服务器所消耗的流量。 流出流量：服务器对外响应的流量。 数据包数 数据包是TCP三次握手建立连接后，传输的内容封装
+流入数据包数：服务器每秒接到的请求数据包数量。 流出数据包数：服务器每秒发出的数据包数量。 如果数据包太大可以考虑压缩，因为传输的数据包小 效率一般会提升，但解压缩也需要性能消耗，不能无限制压缩
+应用传输协议 ​	传输协议压缩率好，传输性能好，对并发性能提升高。但是也需要看调用双方的语言可以使用协议才行。可以自己定义，也可以使用成熟的传输协议。比如redis的序列化传输协议、json传输协议、Protocol Buffers传输协议、http协议等。 尤其在 rpc调用过程中，这个传输协议选择需要仔细甄别选型。
+长连接、短连接 长连接是指在一个TCP连接上，可以重用多次发送数据包，在TCP连接保持期间，如果没有数据包发送，需要双方发检测包以维持此连接。 半开连接的处理：当客户端与服务器建立起正常的TCP连接后，如果客户主机掉线（网线断开）、电源掉电、或系统崩溃，服务器将永远不会知道。长连接中间件，需要处理这个细节。linux默认配置2小时，可以配置修改。不过现实项目一般不用系统的这个机制，很多直接使用客户端心跳包维持连接，服务端启动定时器，超时就close掉连接 短连接是指通信双方有数据交互时，就建立一个TCP连接，数据发送完成后，则断开此TCP连接。但是每次建立连接需要三次握手、断开连接需要四次挥手。 关闭连接最好由客户端主动发起，TIME_WAIT这个状态最好不要在服务器端，减少占用资源，当然如果是使用短连接，客户端高频的出现TIME_WAIT也要注意临时端口耗尽的问题，可以有很多优化(比如SO_REUSEADDR选项、SO_LINGER选项，临时端口范围调优等) 选择建议：
+在客户端数量少场景一般使用长连接。后端中间件、微服务之间通信最好使用长连接。如：数据库连接，duboo默认协议等。 而大型web、app应用，使用http短连接（http1.1的keep alive变相的支持长连接，但还是串行请求/响应交互）。http2.0支持真正的长连接。 长连接会对服务端耗费更多的资源，上百万用户，每个用户独占一个连接，对服务端压力多大，成本多高。IM、push应用会使用长连接，但是会做很多优化工作。 由于https需要加解密运算等，最好使用http2.0（强制ssl），传输性能很好。但是服务端需要维持更多的连接。 并发连接和并发量 并发连接数：=活跃连接数+非活跃连接数。所有建立的TCP连接数量。网络服务器能并行管理的连接数。 并发量：瞬时通过活跃连接传输数据的量，这个量一般在处理端好评估。跟活跃连接数没有绝对的关系。网络服务器能并行处理的业务请求数。 rt响应时间：各类操作单机rt肯定不相同。比如：从cache中读数据和分布式事务写数据库，资源的消耗不同，操作时间本身就不同。 吞吐量：QPS/TPS，每秒可以处理的查询或事务数，这个是关键指标。 IO多路复用 相关观念回顾 用户空间与内核空间 linux操作系统采用虚拟存储器技术，对于32位操作系统，内存寻址空间就是4G(2^32)。操作系统的核心叫做内核kernel，独立于普通的Application，内核是可以访问受保护的内存空间，也有访问底层硬件的权限。为了保证用户进程不能直接操作内核(内核要足够稳定)，所以操作系统将虚拟空间划分2部分，一部分叫做内核空间，一部分叫做用户空间。
+linux操作系统32位，将最高的1G(虚拟地址0xC0000000到0xFFFFFFFF) 是给内核使用的，叫做内核空间，而较低的3G字节(虚拟地址从0x00000000到0xBFFFFFFF)，给各个应用进程使用，叫做用户空间。
+每个进程可以通过系统调用进入内核，因此linux内核有系统内的所有进程共享，空间分配图大致如下:
+linux系统内部结构大值图示:
+当一个任务(往往是进程或者线程)执行系统调用也就是执行内核代码，进程就进入内核态，当任务执行用户自己的代码，称为处于用户运行态(用户态)
+进程切换 为了控制各个进程的执行，内核必须有能力挂起某个正在运行的进程(正在使用cpu)，并具有恢复以前挂起进程并执行的能力。这种挂起与恢复执行往往被称为进程切换，任何进程都是在操作系统内核的支持下才能正常运行，跟内核密切相关。
+进程切换大致涉及内容：
+保存处理机的上下文，比如程序计数器、寄存器 更新进程PCB(Process Control Block)信息 将进程PCB放入相应的队列，如就绪队列，某些时间的阻塞等待队列等等 选择另外一个进程执行，更新其PCB信息 更新内存管理的数据结构 恢复处理机上下文 linux一个注释
+当一个进程在执行时,CPU的所有寄存器中的值、进程的状态以及堆栈中的内容被称为该进程的上下文。当内核需要切换到另一个进程时，它需要保存当前进程的所有状态，即保存当前进程的上下文，以便在再次执行该进程时，能够必得到切换时的状态执行下去。在LINUX中，当前进程上下文均保存在进程的任务数据结构中。在发生中断时,内核就在被中断进程的上下文中，在内核态下执行中断服务例程。但同时会保留所有需要用到的资源，以便中继服务结束时能恢复被中断进程的执行 进程阻塞 正在执行的进程，由于等待某些事件(等待系统资源，等待某种操作完成，新的数据尚未到达或者没有新的工作等)，则会有操作系统自动执行阻塞原语(Block),使自己由运行状态变为阻塞状态，进度阻塞状态之后，进程不占用cpu资源，等待的事件完成后再由内核将其唤醒。 文件描述符 File Descriptor为计算机科学中的一个术语，是一个抽象概念，用于表述指向文件的引用 在形式上是一个非负整数，实际上是一个索引值，指向内核为每个进程维护的一个打开文件的记录表。 当进程打开一个现有文件或者创建一个新文件，内核将返回其一个文件描述符 一些类Unix底层程序往往会围绕文件描述符展开工作 缓冲I/O linux有I/O缓存机制，操作系统会将I/O数据缓存在文件系统的页缓存(page catch)中，也就是数据往往先被操作系统拷贝到内核的缓冲区，然后再由操作系统内核的缓冲区拷贝到用户程序的地址空间。 缓存I/O机制导致数据在传输过程中需要用户空间和内核空间进行多次拷贝，这就必然导致cpu和内存开销 常见I/O模式复习 就拿read距离，数据先被拷贝到内核缓存区，然后再拷贝到用户地址空间，所以会经过2个阶段</description>
+    </item>
+  </channel>
+</rss>

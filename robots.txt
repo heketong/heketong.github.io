@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://heketong.github.io/sitemap.xml

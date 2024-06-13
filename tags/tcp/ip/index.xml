@@ -1,1 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TCP/IP on 疯子爱淡定</title><link>http://heketong.github.io/tags/tcp/ip/</link><description>Recent content in TCP/IP on 疯子爱淡定</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 13 May 2020 22:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/tags/tcp/ip/index.xml" rel="self" type="application/rss+xml"/><item><title>100场马拉松</title><link>http://heketong.github.io/2020/06/marathons/</link><pubDate>Fri, 12 Jun 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/06/marathons/</guid><description>100-Marathons 1 广州花都半马赛事 2019.2.24 ​ 【广州花都摇滚马组委会】祝贺贺 克通 完成2019广州花都摇滚马拉松半程马拉松项目，参赛号：C11949，枪声成绩：02</description></item><item><title>create_hugo_blog</title><link>http://heketong.github.io/2020/05/create_hugo_blog/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/create_hugo_blog/</guid><description>搭建hugo静态博客记录 1 安装Hugo 我这里是imac所以就直接用brew 其它操作系统也很简单 百度一下一把 brew install hugo 2 初始化站点目录 先cd到你想</description></item><item><title>TCP/IP</title><link>http://heketong.github.io/2020/05/tcp_ip/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/tcp_ip/</guid><description>相关历史及分成模型 历史介绍 1969年 美国担心敌人会摧毁自己的网络，所以国防部高级研究计划局（Advanced Research Projects Agency，ARPA）下决</description></item><item><title>分布式</title><link>http://heketong.github.io/2020/05/%E5%88%86%E5%B8%83%E5%BC%8F/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E5%88%86%E5%B8%83%E5%BC%8F/</guid><description>一些概念回顾 缓存穿透 概念： 缓存没有数据，而且数据库也没有数据。 ​ 当这种情况大量出现或被恶意攻击时，接口的访问全部透过Redis访问数据库，而</description></item><item><title>常用数据结构</title><link>http://heketong.github.io/2020/05/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid><description>时间复杂度 常数时间操作O(1) 操作时间是固定的次数，跟数据量本身没有关系，就是其时间复杂度是O(1),比如总是比较1次或者3次，比如总是累加</description></item><item><title>排序_数据结构与算法</title><link>http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</guid><description>冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两</description></item><item><title>网络高并发</title><link>http://heketong.github.io/2020/05/%E9%AB%98%E5%B9%B6%E5%8F%91/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E9%AB%98%E5%B9%B6%E5%8F%91/</guid><description>高并发性能相关指标或术语回顾 连接相关 服务端能保持，管理，处理多少客户端的连接 活跃连接数：所有ESTABLISHED状态的TCP连接，某个瞬时</description></item><item><title>设计模式</title><link>http://heketong.github.io/2020/05/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</link><pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate><guid>http://heketong.github.io/2020/05/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</guid><description>设计模式介绍 设计模式最关键的作用是为了可复用，减少开发工作量。 模式就是针对现实世界重复出现的问题，给出核心解决方案，忽略掉一些不重要的细节。</description></item><item><title>关于我</title><link>http://heketong.github.io/about/</link><pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate><guid>http://heketong.github.io/about/</guid><description>常用邮箱 18929579649@163.com 欢迎骚扰 想说的话: 每个不曾起舞的日子，都是对生命的辜负 特别喜欢这个翻译 像疯子一样追求自己的梦想，遇到不开心也希望自己无比淡定 多向小</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TCP/IP on 疯子爱淡定</title>
+    <link>http://heketong.github.io/tags/tcp/ip/</link>
+    <description>Recent content in TCP/IP on 疯子爱淡定</description>
+    <image>
+      <title>疯子爱淡定</title>
+      <url>http://heketong.github.io/images/papermod-cover.png</url>
+      <link>http://heketong.github.io/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 13 May 2020 22:45:46 +0800</lastBuildDate>
+    <atom:link href="http://heketong.github.io/tags/tcp/ip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TCP/IP</title>
+      <link>http://heketong.github.io/posts/tcp_ip/</link>
+      <pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate>
+      <guid>http://heketong.github.io/posts/tcp_ip/</guid>
+      <description>相关历史及分成模型 历史介绍 1969年 美国担心敌人会摧毁自己的网络，所以国防部高级研究计划局（Advanced Research Projects Agency，ARPA）下决心要建立一个高可用的网络，即使部分线路或者交换机的故障不会导致整个网络的瘫痪，于是有了后来的ARPANET（Advanced Research Project Agency Network）&amp;mdash;最早只是一个简单的分组交换网 经过不断发展，原始的ARPANET慢慢变成了多个网络互联，逐步促成了互联网的出现。 1983年TCP/IP 协议成为 ARPANET 上的标准协议，现在互联网世界这么繁荣都得意与TCP/IP协议，当然任何一个行业越是繁荣昌盛，就越是有良好的协议标准，接口标准，TCP/IP就是网际互联中最流行的协议标准，也正是因为其流行，互联网才能越发发达。 分层模型 一般都会提到7层 4层 或者 5层，下面给出一张图做个简单对比 ​	左边是ISO/OSI的7层模型，分的更细，一般我们常说的右边的4层，咱们从上到下分层说
+应用层 Application Layer 应用层的本质是规定了应用程序之间如何相互传递报文，处理特定的应用程序细节
+我们常说的FTP、HTTP、SMTP、NFS、SNMP、Telnet都是应用层的协议，就拿HTTP来说：
+规定了报文的类型 是请求报文还是应答报文 每段报文具体什么语法 有多少段，怎么才算结束(\r\n) 进程应该以什么样的顺序发送或者接收报文 &amp;hellip;&amp;hellip;&amp;hellip;. 大部分应用层协议都有RFC文档定义(Request for Comments，缩写：RFC,由互联网工程任务组（IETF）发布的一系列备忘录。文件收集了有关互联网相关信息，以及UNIX和互联网社群的软件文件，以编号排定。目前RFC文件是由互联网协会（ISOC）赞助发行)
+传输层 Transport Layer 主要为两台主机上的应用程序提供端到端的通信。在TCP/IP协议族中，有两个互不相同的传输协议：TCP（传输控制协议）和UDP（用户数据报协议）。
+TCP为两台主机提供高可靠性的数据通信。它所做的工作包括把应用程序交给它的数据分成合适的小块交给下面的网络层，确认接收到的分组，设置发送最后确认分组的超时时钟等。
+由于传输层TCP提供了高可靠性的端到端的通信，因此应用层可以忽略所有这些细节。为了提供可靠的服务，TCP采用了超时重传、发送和接收端到端的确认分组等机制。
+UDP则为应用层提供一种非常简单的服务。它只是把称作数据报的分组从一台主机发送到另一台主机，但并不保证该数据报能到达另一端。一个数据报是指从发送方传输到接收方的一个信息单元（例如，发送方指定的一定字节数的信息）。UDP协议任何必需的可靠性必须由应用层来提供。
+端口 这里必须提下端口的概念，主要为了区分一台主机上不同的应用程序，比如80端口一般就是http应用的端口，21一般是ftp应用的端口，知道了端口就知道数据包到时候要送给哪个应用程序 网络层/网际层/网络互联层 Internet Layer 网络互连层提供了主机到主机的通信，将传输层产生的的数据包封装成分组数据包发送到目标主机，并提供路由选择的能力。
+处理分组在网络中的活动，例如分组的选路。
+在TCP/IP协议族中，网络层协议包括IP协议（网际协议），
+ICMP协议（Internet互联网控制报文协议），
+IGMP协议（Internet组管理协议）。
+IP是一种网络层协议，提供的是一种不可靠的服务，它只是尽可能快地把分组从源结点送到目的结点，但是并不提供任何可靠性保证。同时被TCP和UDP使用。TCP和UDP的每组数据都通过端系统和每个中间路由器中的IP层在互联网中进行传输。
+ICMP是IP协议的附属协议。IP层用它来与其他主机或路由器交换错误报文和其他重要信息。
+IGMP是Internet组管理协议。它用来把一个UDP数据报多播到多个主机。
+链路层/网络接口层/网络访问层 Network Access Layer 也就是上图右边的网络接口层和硬件层，通常包括操作系统中的设备驱动程序和计算机中对应的网络接口卡。它们一起处理与电缆（或其他任何传输媒介）的物理接口细节。ARP（地址解析协议）和RARP（逆地址解析协议）是某些网络接口（如以太网和令牌环网）使用的特殊协议，用来转换IP层和网络接口层使用的地址。
+以太网、Wifi、蓝牙工作在这一层，网络访问层提供了主机连接到物理网络需要的硬件和相关的协议
+为什么要分层 分层的本质是通过分离关注点而让复杂问题简单化，通过分层可以做到：
+各层独立：限制了依赖关系的范围，各层之间使用标准化的接口，各层不需要知道上下层是如何工作的，增加或者修改一个应用层协议不会影响传输层协议 灵活性更好：比如路由器不需要应用层和传输层，分层以后路由器就可以只用加载更少的几个协议层 易于测试和维护：提高了可测试性，可以独立的测试特定层，某一层有了更好的实现可以整体替换掉 能促进标准化：每一层职责清楚，方便进行标准化 抓个包瞄一瞄 这里抓一个http报文看看 直接后台 curl http://www.</description>
+    </item>
+  </channel>
+</rss>
