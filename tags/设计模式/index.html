@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="zh" dir="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +7,19 @@
 <meta name="robots" content="index, follow">
 <title>设计模式 | 疯子爱淡定</title>
 <meta name="keywords" content="">
-<meta name="description" content="疯子爱淡定 http://heketong.github.io/">
-<meta name="author" content="疯子爱淡定">
+<meta name="description" content="">
+<meta name="author" content="becool">
 <link rel="canonical" href="http://heketong.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://heketong.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://heketong.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://heketong.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://heketong.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="http://heketong.github.io/safari-pinned-tab.svg">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://heketong.github.io/img/heketong_profile_photo.JPG">
+<link rel="icon" type="image/png" sizes="16x16" href="http://heketong.github.io/img/heketong_profile_photo.JPG">
+<link rel="icon" type="image/png" sizes="32x32" href="http://heketong.github.io/img/heketong_profile_photo.JPG">
+<link rel="apple-touch-icon" href="http://heketong.github.io/img/heketong_profile_photo.JPG">
+<link rel="mask-icon" href="http://heketong.github.io/img/heketong_profile_photo.JPG">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="http://heketong.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.xml">
-<link rel="alternate" hreflang="en" href="http://heketong.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">
+<link rel="alternate" hreflang="zh" href="http://heketong.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">
 <noscript>
     <style>
         #theme-toggle,
@@ -37,7 +37,7 @@
                 --secondary: rgb(155, 156, 157);
                 --tertiary: rgb(65, 66, 68);
                 --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
+                --hljs-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
             }
@@ -57,24 +57,51 @@
 
     </style>
 </noscript>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = ""; 
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
   
 
 <meta property="og:title" content="设计模式" />
-<meta property="og:description" content="疯子爱淡定 http://heketong.github.io/" />
+<meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://heketong.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" />
-<meta property="og:image" content="http://heketong.github.io/images/papermod-cover.png" />
 
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://heketong.github.io/images/papermod-cover.png" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="设计模式"/>
-<meta name="twitter:description" content="疯子爱淡定 http://heketong.github.io/"/>
+<meta name="twitter:description" content=""/>
 
 </head>
 
 <body class="list" id="top">
 <script>
+    (function () {
+        let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
+        if(arr = document.cookie.match(reg)) {
+        } else {
+            if (new Date().getHours() >= 19 || new Date().getHours() < 6) {
+                document.body.classList.add('dark');
+                localStorage.setItem("pref-theme", 'dark');
+            } else {
+                document.body.classList.remove('dark');
+                localStorage.setItem("pref-theme", 'light');
+            }
+        }
+    })()
+
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
     } else if (localStorage.getItem("pref-theme") === "light") {
@@ -82,23 +109,24 @@
     } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
-
 </script>
 
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://heketong.github.io/" accesskey="h" title="疯子爱淡定 (Alt + H)">疯子爱淡定</a>
+            <a href="http://heketong.github.io/" accesskey="h" title="疯子爱淡定 (Alt + H)">
+            <img src="http://heketong.github.io/img/heketong_profile_photo.JPG" alt="logo" aria-label="logo"
+                 height="35">疯子爱淡定</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
                         <line x1="12" y1="1" x2="12" y2="3"></line>
                         <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -110,99 +138,180 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://heketong.github.io/archives" title="📚 归档">
-                    <span>📚 归档</span>
+                <a href="http://heketong.github.io/search" title="🔍 搜索 (Alt &#43; /)" accesskey=/>
+                <span>🔍 搜索</span>
                 </a>
             </li>
             <li>
-                <a href="http://heketong.github.io/search/" title="🔍 查找">
-                    <span>🔍 查找</span>
+                <a href="http://heketong.github.io/" title="🏠 主页">
+                <span>🏠 主页</span>
                 </a>
             </li>
             <li>
-                <a href="http://heketong.github.io/about/" title="🙋🏻‍♂️ 关于">
-                    <span>🙋🏻‍♂️ 关于</span>
+                <a href="http://heketong.github.io/posts" title="📚 文章">
+                <span>📚 文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://heketong.github.io/tags" title="🧩 标签">
+                <span>🧩 标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://heketong.github.io/archives/" title="⏱️ 时间轴">
+                <span>⏱️ 时间轴</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://heketong.github.io/about" title="🙋🏻‍♂️ 关于">
+                <span>🙋🏻‍♂️ 关于</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://heketong.github.io/links" title="🤝 友链">
+                <span>🤝 友链</span>
                 </a>
             </li>
             <li>
                 <a href="http://heketong.github.io/categories/" title="🧩 分类">
-                    <span>🧩 分类</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://heketong.github.io/tags/" title="🧩 标签">
-                    <span>🧩 标签</span>
+                <span>🧩 分类</span>
                 </a>
             </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://heketong.github.io/">Home</a>&nbsp;»&nbsp;<a href="http://heketong.github.io/tags/">Tags</a></div>
-  <h1>
-    设计模式
-    <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/index.xml" title="RSS" aria-label="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" height="23">
-        <path d="M4 11a9 9 0 0 1 9 9" />
-        <path d="M4 4a16 16 0 0 1 16 16" />
-        <circle cx="5" cy="19" r="1" />
-      </svg>
-    </a>
-  </h1>
+<header class="page-header"><div class="breadcrumbs"><a href="http://heketong.github.io/">🏠 主页</a>&nbsp;»&nbsp;<a href="http://heketong.github.io/tags/">🧩 标签</a></div>
+  <h1>设计模式</h1>
 </header>
 
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">设计模式
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>设计模式介绍 设计模式最关键的作用是为了可复用，减少开发工作量。
-模式就是针对现实世界重复出现的问题，给出核心解决方案，忽略掉一些不重要的细节。
-分解和抽象是2种解决现实问题的通用方法。
-底层思维是向下的，多数是理解计算机的，抽象是向上思维，多数是理解现实世界的。
-在现实工程开发中，要寻找需求频繁变化点，应用对应的设计模式，从而提高代码复用性，降低开发成本，测试成本。
-设计模式的应用不宜先入为主，最好是Refactoring to Patterns 也就是针对现实的痛点(变化点)，重构到设计模式
-重构的关键技巧 静态—-动态 早绑定—-晚绑定 继承—–组合 编译时依赖—-运行时依赖 紧耦合—-松耦合 面向对象设计原则 重新认识面向对象 理解隔离变化
-宏观层面来看 面向对象的构建方式能够适应软件的变化，能将变化带来的影响减为最小
-各司其职
-微观层面来说，面向对象更强调独立的各个类
-需求变化带来的新增类 不应该改变原来类的功能，也就是每个类各司其职
-对象到底是什么
-从语言的角度来说，对象封装了代码和数据
-从规格层面来说，对象是一些列可以使用的公共接口
-从概念层面来说，对象是拥有某种责任的抽象
-1 依赖倒置原则(DIP) 高层模块(往往是稳定的)不应该依赖底层模块(往往是不停的变化的)，二者都应该依赖于抽象。
-抽象(稳定)不应该依赖于实现细节(变化)，实现细节应该依赖于抽象(稳定)
-2 开放封闭原则(OCP) 对于扩展是开放的，对于修改是封闭的 类模块应该是是可以扩展的，但是不能修改。 在设计之初应该考虑其扩展性，不应该因为新增一个功能，反而要更改原先的功能，应该让新增功能为扩展，不应该修改原先的代码。
-3 单一职责原则(SRP) 一个类应该仅有一个引起其变化的原因 其变化的原因 往往就是其该承担的责任。 4 Liskov替换原则(LSP) 子类必须能够替换它的父类(IS-A) 继承表达类型抽象 5 接口隔离原则(ISP) 不应该强迫客户程序依赖他们不使用的方法 接口应该小而完备 6 优先使用对象组合 而不是类继承 类继承通常是白箱复用 对象组合通常为黑箱复用 继承在某种程度上破坏了封装性，子类父类耦合度较高 对象组合只要求被组合的对象有良好的接口定义，耦合度低 7 封装变化点 使用封装来创建对象之间的分界层，让设计者可以在分界层一侧修改，不影响另外一侧，实现分层间的松耦合。
-封装其实是封装变化点。
-8 针对接口编程，不要针对实现编程 不将变量声明为特定的类，而是声明为接口。 客户程序不需要知道对象具体类型，只需要知道其开放的接口 减少各部分依赖关系，实现高内聚 松耦合 产业强盛 最好是接口相当标准化。 模版方法Template method—组件协作 需求背景： 需要实现多个app，都需要5个操作步骤(5个步骤操作顺序也都是固定的),有3个已经有框架或者library库实现了，实现这个app...</p>
-  </div>
-  <footer class="entry-footer"><span title='2020-05-13 22:45:46 +0800 +0800'>May 13, 2020</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;疯子爱淡定</footer>
-  <a class="entry-link" aria-label="post link to 设计模式" href="http://heketong.github.io/posts/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"></a>
-</article>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2024 <a href="http://heketong.github.io/">疯子爱淡定</a></span> · 
 
+<article class="post-entry">
+  <div class="post-info">
+    <header class="entry-header">
+      <h2>设计模式
+      </h2>
+    </header>
+    <section class="entry-content">
+      <p>
+        设计模式学习记录
+        
+        ...
+      </p>
+    </section>
+    <footer class="entry-footer">
+
+<style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    .parent-post-meta {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.8;
+    }
+</style>
+
+<span class="parent-post-meta">
+    <span id="post_meta_style_1">
+        <span class="fa fa-calendar-check-o"></span>
+        <span>2020-05-13
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    
+    
+    
+    
+    
+    
+    
+    <span id="post_meta_style_3">
+        <span class="fa fa-file-word-o"></span>
+        <span>25121字
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_4">
+        <span class="fa fa-clock-o"></span>
+        <span>51分钟
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_5">
+        <span class="fa fa-user-o"></span>
+        <span>becool
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_6">
+        <span class="fa fa-tags" style="opacity: 0.8"></span>
+        <span>
+            <span class="post-tags-meta">
+                <a href="http://heketong.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" style="color: var(--secondary)!important;">设计模式</a>
+            </span>
+        </span>
+    </span>
+</span>
+</footer>
+  </div> 
+  <a class="entry-link" aria-label="post link to 设计模式" href="http://heketong.github.io/posts/tech/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"></a>
+</article>
+
+<br />
+<br />
+
+<br />
+</main>
+
+<footer class="footer">
     <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+        Copyright
+        &copy;
+        2020-2024
+        <a href="http://heketong.github.io/" style="color:#939393;">疯子爱淡定</a>
+        All Rights Reserved
+    </span>
+    <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;">粤ICP备2022127626号-1</a>&nbsp;
+    <span>
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=null"
+           style="display:inline-block;text-decoration:none;height:20px;color:#939393;">
+            <img src="" style="float:left;margin: 0px 5px 0px 0px;"/>
+            
+        </a>
+    </span>
+    <span id="busuanzi_container">
+        <span class="fa fa-user"></span> <span id="busuanzi_value_site_uv"></span>
+        <span class="fa fa-eye"></span> <span id="busuanzi_value_site_pv"></span>
     </span>
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
+    <span class="topInner">
+        <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z"/>
+        </svg>
+        <span id="read_progress"></span>
+    </span>
 </a>
+
+<script>
+    document.addEventListener('scroll', function (e) {
+        const readProgress = document.getElementById("read_progress");
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
+    })
+</script>
 
 <script>
     let menu = document.getElementById('menu')
@@ -231,12 +340,11 @@
             }
         });
     });
-
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    let mybutton = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
             mybutton.style.visibility = "visible";
             mybutton.style.opacity = "1";
         } else {
@@ -244,10 +352,13 @@
             mybutton.style.opacity = "0";
         }
     };
-
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
+        (function() {
+            document.cookie = "change-themes" + "="+ escape ("false");
+        })()
+
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
@@ -255,8 +366,28 @@
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
         }
-    })
+    });
+</script>
 
+<script>
+    document.body.addEventListener('copy', function (e) {
+        if (window.getSelection().toString() && window.getSelection().toString().length > 50) {
+            let clipboardData = e.clipboardData || window.clipboardData;
+            if (clipboardData) {
+                e.preventDefault();
+                let htmlData = window.getSelection().toString() +
+                    '\r\n\n————————————————\r\n' +
+                    '版权声明：本文为「'+"疯子爱淡定"+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
+                let textData = window.getSelection().toString() +
+                    '\r\n\n————————————————\r\n' +
+                    '版权声明：本文为「'+"疯子爱淡定"+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
+                clipboardData.setData('text/html', htmlData);
+                clipboardData.setData('text/plain', textData);
+            }
+        }
+    });
 </script>
 </body>
 

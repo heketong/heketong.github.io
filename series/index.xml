@@ -4,13 +4,7 @@
     <title>Series on 疯子爱淡定</title>
     <link>http://heketong.github.io/series/</link>
     <description>Recent content in Series on 疯子爱淡定</description>
-    <image>
-      <title>疯子爱淡定</title>
-      <url>http://heketong.github.io/images/papermod-cover.png</url>
-      <link>http://heketong.github.io/images/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- 0.127.0</generator>
-    <language>en</language>
-    <atom:link href="http://heketong.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language><atom:link href="http://heketong.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

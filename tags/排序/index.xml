@@ -4,22 +4,17 @@
     <title>排序 on 疯子爱淡定</title>
     <link>http://heketong.github.io/tags/%E6%8E%92%E5%BA%8F/</link>
     <description>Recent content in 排序 on 疯子爱淡定</description>
-    <image>
-      <title>疯子爱淡定</title>
-      <url>http://heketong.github.io/images/papermod-cover.png</url>
-      <link>http://heketong.github.io/images/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- 0.127.0</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 13 May 2020 22:45:46 +0800</lastBuildDate>
-    <atom:link href="http://heketong.github.io/tags/%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 13 May 2020 22:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/tags/%E6%8E%92%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>排序_数据结构与算法</title>
-      <link>http://heketong.github.io/posts/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link>
+      <link>http://heketong.github.io/posts/tech/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link>
       <pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate>
-      <guid>http://heketong.github.io/posts/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</guid>
-      <description>冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两个数，前面的数大于后面的数，则交换，将较大的数挪动到后面
-第1轮: 比较1 &amp;ndash; N 经过依次相邻两两比较交换 最大的数则放到了最后 第2轮: 比较1 &amp;ndash;N-1 经过依次相邻两两比较交换 第2大的数则放到了N-1的位置 第N-1轮:比较1 &amp;ndash;	2	前2个数两两比较交换 整个过程完成 代码 BubbleSort ```go func BubbleSort(a []int) { if len(a) &lt; 2 { //一个数或者为空 不用排序 return } //外层循环控控制每轮循环两两比较的最大下标 第1次为N-1 最后一次为1(也就是最前面的2个元素) for endPos := len(a) - 1; endPos &gt; 0; endPos-- { //内层循环完成两两比较交换 for i := 0; i &lt; endPos; i++ { if a[i] &gt; a[i+1] { a[i], a[i+1] = a[i+1], a[i] } } } } ``` 时间复杂度 ​ O($N^2$)</description>
+      
+      <guid>http://heketong.github.io/posts/tech/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</guid>
+      <description>常用排序算法</description>
     </item>
+    
   </channel>
 </rss>

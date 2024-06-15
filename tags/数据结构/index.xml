@@ -4,38 +4,26 @@
     <title>数据结构 on 疯子爱淡定</title>
     <link>http://heketong.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
     <description>Recent content in 数据结构 on 疯子爱淡定</description>
-    <image>
-      <title>疯子爱淡定</title>
-      <url>http://heketong.github.io/images/papermod-cover.png</url>
-      <link>http://heketong.github.io/images/papermod-cover.png</link>
-    </image>
-    <generator>Hugo -- 0.127.0</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 13 May 2020 22:45:46 +0800</lastBuildDate>
-    <atom:link href="http://heketong.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 13 May 2020 22:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>常用数据结构</title>
-      <link>http://heketong.github.io/posts/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
+      <link>http://heketong.github.io/posts/tech/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link>
       <pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate>
-      <guid>http://heketong.github.io/posts/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
-      <description>时间复杂度 常数时间操作O(1) 操作时间是固定的次数，跟数据量本身没有关系，就是其时间复杂度是O(1),比如总是比较1次或者3次，比如总是累加3次，总是赋值3次等等，无论样本数据量是多少，总是如此，我们就说起操作时间是常数时间，也就是O(1)
-实际评估过程中一般是循环多多少次，比较了多少次等等计算出一个表达式，然后对于表达式只要高阶项，不要低阶项，也不要高阶项的系数，剩下的部分 如果记为f(N)，那么时间复杂度为O(f(N)). N为样本量
-一个简单的例子：
-比如计算出的表达式为f(N)=2$N^2$+3N+3 这里面的高阶项就是$N^2$，对应高阶项的系数就是2 低阶项就是3N和3 最后f(N)=$N^2$
-算法流程的好坏，先看时间复杂度的指标，然后再分 析不同数据样本下的实际运行时间，也就是常数项时间
-例子 一个有序数组A，另一个无序数组B，请打印B中的所有不在A中的数，A数 组长度为N，B数组长度为M。
-算法流程1:对于数组B中的每一个数，都在A中通过遍历的方式找一下;
-算法流程2:对于数组B中的每一个数，都在A中通过二分的方式找一下;
-算法流程3:先把数组B排序，然后用类似外排的方式打印所有在A中出现 的数;
-代码实现及算法时间复杂度分析 三种算法代码实现 二分有递归和非递归 排序用的是归并递归实现 ```c++ // 一个**有序**数组A，另一个**无序**数组B，请打印B中的所有不在A中的数，A数 组长度为N，B数组长度为M。 // 算法流程1:对于数组B中的每一个数，都在A中通过遍历的方式找一下; // 算法流程2:对于数组B中的每一个数，都在A中通过二分的方式找一下; // 算法流程3:先把数组B排序，然后用类似外排的方式打印所有在A中出现 的数; #include using namespace std; //打印数组 void printArray(int a[],int la){ cout&lt;&lt;&#34;[&#34;; for(int i=0;i</description>
+      
+      <guid>http://heketong.github.io/posts/tech/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</guid>
+      <description>常用数据结构记录</description>
     </item>
+    
     <item>
       <title>排序_数据结构与算法</title>
-      <link>http://heketong.github.io/posts/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link>
+      <link>http://heketong.github.io/posts/tech/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</link>
       <pubDate>Wed, 13 May 2020 22:45:46 +0800</pubDate>
-      <guid>http://heketong.github.io/posts/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</guid>
-      <description>冒泡排序 介绍 ​ 冒泡排序是一种比较简单的排序，之所以叫冒泡，是因为在两两比较的过程中较大的数就像冒泡一样被换到后面。详细解释：依次比较相邻的两个数，前面的数大于后面的数，则交换，将较大的数挪动到后面
-第1轮: 比较1 &amp;ndash; N 经过依次相邻两两比较交换 最大的数则放到了最后 第2轮: 比较1 &amp;ndash;N-1 经过依次相邻两两比较交换 第2大的数则放到了N-1的位置 第N-1轮:比较1 &amp;ndash;	2	前2个数两两比较交换 整个过程完成 代码 BubbleSort ```go func BubbleSort(a []int) { if len(a) &lt; 2 { //一个数或者为空 不用排序 return } //外层循环控控制每轮循环两两比较的最大下标 第1次为N-1 最后一次为1(也就是最前面的2个元素) for endPos := len(a) - 1; endPos &gt; 0; endPos-- { //内层循环完成两两比较交换 for i := 0; i &lt; endPos; i++ { if a[i] &gt; a[i+1] { a[i], a[i+1] = a[i+1], a[i] } } } } ``` 时间复杂度 ​ O($N^2$)</description>
+      
+      <guid>http://heketong.github.io/posts/tech/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</guid>
+      <description>常用排序算法</description>
     </item>
+    
   </channel>
 </rss>
