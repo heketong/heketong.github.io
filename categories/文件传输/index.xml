@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>文件传输 on 疯子爱淡定</title>
+    <link>http://heketong.github.io/categories/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/</link>
+    <description>Recent content in 文件传输 on 疯子爱淡定</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 04 May 2024 22:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/categories/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>任意2台电脑之间快速安全的传输文件</title>
+      <link>http://heketong.github.io/posts/tech/croc_sendfile/</link>
+      <pubDate>Sat, 04 May 2024 22:45:46 +0800</pubDate>
+      
+      <guid>http://heketong.github.io/posts/tech/croc_sendfile/</guid>
+      <description>任意2台电脑之间快速安全的传输文件</description>
+    </item>
+    
+  </channel>
+</rss>

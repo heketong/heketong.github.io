@@ -81,8 +81,8 @@ var _hmt = _hmt || [];
 <meta property="og:description" content="hugo搭建博客" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://heketong.github.io/posts/tech/create_hugo_blog/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-05-13T22:45:46+08:00" />
-<meta property="article:modified_time" content="2020-05-13T22:45:46+08:00" />
+<meta property="article:published_time" content="2020-05-04T22:45:46+08:00" />
+<meta property="article:modified_time" content="2020-05-04T22:45:46+08:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="hugo搭建博客"/>
@@ -127,11 +127,11 @@ var _hmt = _hmt || [];
   "keywords": [
     "Hugo", "建站"
   ],
-  "articleBody": "搭建hugo静态博客记录 1 安装Hugo 我这里是imac所以就直接用brew 其它操作系统也很简单 google\nbrew install hugo 2 初始化站点目录 先cd到你想放置的磁盘目录 然后执行一下命令即可 会在当前目录创建站点名称同名目录\n$ hugo new site blog $ cd blog 3 安装主题并修改 现在hugo主题商店挺多，这里选择了相对干净的PaperMod 如果没有git环境 可自行百度安装\n$ git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1 config.yml 配置文件主要修改项\nbaseURL: http://heketong.github.io/ # 绑定的域名 languageCode: zh # en-us title: 疯子爱淡定 theme: hugo-PaperMod # 主题名字，和themes文件夹下的一致 enableInlineShortcodes: true enableEmoji: true # 允许使用 Emoji 表情，建议 true enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启 buildDrafts: false buildFuture: false buildExpired: false googleAnalytics: # 谷歌统计 # Copyright: Sulv paginate: 15 # 首页每页显示的文章数 summaryLength: 140 # 文章概览的自字数，默认70 minify: disableXML: true # minifyOutput: true permalinks: # 访问博客时网址的显示形式 post: \"/:title/\" # post: \"/:year/:month/:day/:title/\" defaultContentLanguage: zh # 最顶部首先展示的语言页面 defaultContentLanguageInSubdir: false menu: main: - identifier: search name: 🔍 搜索 url: search weight: 1 - identifier: home name: 🏠 主页 url: / weight: 2 - identifier: posts name: 📚 文章 url: posts weight: 3 - identifier: tags name: 🧩 标签 url: tags weight: 15 - name: 🧩 分类 url: /categories/ - identifier: archives name: ⏱️ 时间轴 url: archives/ weight: 20 - identifier: about name: 🙋🏻‍♂️ 关于 url: about weight: 50 - identifier: links name: 🤝 友链 url: links weight: 60 outputs: home: - HTML - RSS - JSON # 这里的参数会被代码以 .Site.Params 的形式读取 params: env: production # to enable google analytics, opengraph, twitter-cards and schema. description: \"\" author: becool # author: [\"Me\", \"You\"] # multiple authors defaultTheme: auto # defaultTheme: light or dark disableThemeToggle: false DateFormat: \"2006-01-02\" ShowShareButtons: true ShowReadingTime: true # disableSpecialistPost: true displayFullLangName: true ShowPostNavLinks: true ShowBreadCrumbs: true ShowCodeCopyButtons: true hideFooter: false # 隐藏页脚 ShowWordCounts: true VisitCount: true ShowLastMod: true #显示文章更新时间 ShowToc: true # 显示目录 TocOpen: true # 自动展开目录 extendCodeBackground: false # 代码块是否自动横向展开 comments: true profileMode: enabled: true title: Be Cool subtitle: \"每个不曾起舞的日子,都是对生命的辜负.👇联系方式\" imageUrl: \"img/heketong_profile_photo.JPG\" imageTitle: imageWidth: 150 imageHeight: 150 buttons: - name: 🧱 音乐 url: posts/music - name: 👨🏻‍💻 技术 url: posts/tech - name: 📕 阅读提升 url: posts/read - name: 🏖 生活 url: posts/life socialIcons: - name: github title: View Source on Github url: \"https://github.com/heketong\" - name: QQ url: \"img/qq.jpg\" - name: WeChat url: \"img/wechat.jpg\" - name: email url: \"mailto:18929579649@163.com\" - name: RSS url: \"index.xml\" label: # 左上角图标 text: \"疯子爱淡定\" icon: \"img/heketong_profile_photo.JPG\" iconHeight: 35 analytics: google: SiteVerificationTag: \"\" assets: favicon: \"img/heketong_profile_photo.JPG\" favicon16x16: \"img/heketong_profile_photo.JPG\" favicon32x32: \"img/heketong_profile_photo.JPG\" apple_touch_icon: \"img/heketong_profile_photo.JPG\" safari_pinned_tab: \"img/heketong_profile_photo.JPG\" disableFingerprinting: true # 禁用指纹 cover: hidden: false # hide everywhere but not in structured data hiddenInList: false # hide on list pages and home hiddenInSingle: false # hide on single page fuseOpts: # 搜索配置 isCaseSensitive: false shouldSort: true location: 0 distance: 1000 threshold: 0.4 minMatchCharLength: 0 keys: [ \"title\", \"permalink\", \"summary\" ] StartYear: 2020 # 底部开始年份 FilingNo: 粤ICP备2022127626号-1 # 底部备案号 Reward: true #打赏是否开启 # 打赏微信图片地址， # 可用绝对和相对地址，相对地址的图片需放在static/img下， # 填写格式为img/wechat_pay.png WechatPay: img/wechatpayimg.JPG Alipay: img/alipayimg.JPG #打赏支付宝图片地址 # twikoo评论 twikoo: version: 1.5.8 # 填写twikoo版本号 id: # 填写自己的twikoo id region: # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档 taxonomies: category: categories tag: tags series: series markup: goldmark: renderer: unsafe: true # HUGO 默认转义 Markdown 文件中的 HTML 代码，如需开启的话 highlight: # anchorLineNos: true codeFences: true guessSyntax: true # lineNos: true noClasses: true tabWidth: 4 style: monokai # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。 # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。 # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。 # lineNoStart：行号从编号几开始，一般从 1 开始。 # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true. # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true. # noClasses：使用 class 标签，而不是内嵌的内联样式 privacy: vimeo: disabled: false simple: true twitter: disabled: false enableDNT: true simple: true instagram: disabled: false simple: true youtube: disabled: false privacyEnhanced: true services: instagram: disableInlineCSS: true twitter: disableInlineCSS: true 4 写markdown文章 $ hugo new posts/create_hugo_blog /Users/ketonghe/blog/content/posts/create_hugo_blog 用markdown编辑器编辑文章\n5 发布预览 $ hugo server -D | ZH +------------------+----+ Pages | 13 Paginator pages | 0 Non-page files | 0 Static files | 9 Processed images | 0 Aliases | 6 Sitemaps | 1 Cleaned | 0 Total in 91 ms Watching for changes in /Users/ketonghe/blog/{archetypes,content,data,layouts,static,themes} Watching for config changes in /Users/ketonghe/blog/config.yml Environment: \"development\" Serving pages from memory Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) Press Ctrl+C to stop 接下来就可以在本地浏览器 输入http://localhost:1313/ 访问了\n这个主题支持站内搜索 还不错\n6 添加评论支持 todo\n7 生成静态页面 这里可以用github的action自动部署 ",
-  "wordCount" : "1609",
+  "articleBody": "搭建hugo静态博客记录 1 安装Hugo 我这里是imac所以就直接用brew 其它操作系统也很简单 google\nbrew install hugo 2 初始化站点目录 先cd到你想放置的磁盘目录 然后执行一下命令即可 会在当前目录创建站点名称同名目录\n$ hugo new site blog $ cd blog 3 安装主题并修改 现在hugo主题商店挺多，这里选择了相对干净的PaperMod 如果没有git环境 可自行百度安装\n$ git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1 config.yml 配置文件主要修改项\nbaseURL: http://heketong.github.io/ # 绑定的域名 languageCode: zh # en-us title: 疯子爱淡定 theme: hugo-PaperMod # 主题名字，和themes文件夹下的一致 enableInlineShortcodes: true enableEmoji: true # 允许使用 Emoji 表情，建议 true enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启 buildDrafts: false buildFuture: false buildExpired: false googleAnalytics: # 谷歌统计 # Copyright: Sulv paginate: 15 # 首页每页显示的文章数 summaryLength: 140 # 文章概览的自字数，默认70 minify: disableXML: true # minifyOutput: true permalinks: # 访问博客时网址的显示形式 post: \"/:title/\" # post: \"/:year/:month/:day/:title/\" defaultContentLanguage: zh # 最顶部首先展示的语言页面 defaultContentLanguageInSubdir: false menu: main: - identifier: search name: 🔍 搜索 url: search weight: 1 - identifier: home name: 🏠 主页 url: / weight: 2 - identifier: posts name: 📚 文章 url: posts weight: 3 - identifier: tags name: 🧩 标签 url: tags weight: 15 - name: 🧩 分类 url: /categories/ - identifier: archives name: ⏱️ 时间轴 url: archives/ weight: 20 - identifier: about name: 🙋🏻‍♂️ 关于 url: about weight: 50 - identifier: links name: 🤝 友链 url: links weight: 60 outputs: home: - HTML - RSS - JSON # 这里的参数会被代码以 .Site.Params 的形式读取 params: env: production # to enable google analytics, opengraph, twitter-cards and schema. description: \"\" author: becool # author: [\"Me\", \"You\"] # multiple authors defaultTheme: auto # defaultTheme: light or dark disableThemeToggle: false DateFormat: \"2006-01-02\" ShowShareButtons: true ShowReadingTime: true # disableSpecialistPost: true displayFullLangName: true ShowPostNavLinks: true ShowBreadCrumbs: true ShowCodeCopyButtons: true hideFooter: false # 隐藏页脚 ShowWordCounts: true VisitCount: true ShowLastMod: true #显示文章更新时间 ShowToc: true # 显示目录 TocOpen: true # 自动展开目录 extendCodeBackground: false # 代码块是否自动横向展开 comments: true profileMode: enabled: true title: Be Cool subtitle: \"每个不曾起舞的日子,都是对生命的辜负.👇联系方式\" imageUrl: \"img/heketong_profile_photo.JPG\" imageTitle: imageWidth: 150 imageHeight: 150 buttons: - name: 🧱 音乐 url: posts/music - name: 👨🏻‍💻 技术 url: posts/tech - name: 📕 阅读提升 url: posts/read - name: 🏖 生活 url: posts/life socialIcons: - name: github title: View Source on Github url: \"https://github.com/heketong\" - name: QQ url: \"img/qq.jpg\" - name: WeChat url: \"img/wechat.jpg\" - name: email url: \"mailto:18929579649@163.com\" - name: RSS url: \"index.xml\" label: # 左上角图标 text: \"疯子爱淡定\" icon: \"img/heketong_profile_photo.JPG\" iconHeight: 35 analytics: google: SiteVerificationTag: \"\" assets: favicon: \"img/heketong_profile_photo.JPG\" favicon16x16: \"img/heketong_profile_photo.JPG\" favicon32x32: \"img/heketong_profile_photo.JPG\" apple_touch_icon: \"img/heketong_profile_photo.JPG\" safari_pinned_tab: \"img/heketong_profile_photo.JPG\" disableFingerprinting: true # 禁用指纹 cover: hidden: false # hide everywhere but not in structured data hiddenInList: false # hide on list pages and home hiddenInSingle: false # hide on single page fuseOpts: # 搜索配置 isCaseSensitive: false shouldSort: true location: 0 distance: 1000 threshold: 0.4 minMatchCharLength: 0 keys: [ \"title\", \"permalink\", \"summary\" ] StartYear: 2020 # 底部开始年份 FilingNo: 粤ICP备2022127626号-1 # 底部备案号 Reward: true #打赏是否开启 # 打赏微信图片地址， # 可用绝对和相对地址，相对地址的图片需放在static/img下， # 填写格式为img/wechat_pay.png WechatPay: img/wechatpayimg.JPG Alipay: img/alipayimg.JPG #打赏支付宝图片地址 # twikoo评论 twikoo: version: 1.5.8 # 填写twikoo版本号 id: # 填写自己的twikoo id region: # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档 taxonomies: category: categories tag: tags series: series markup: goldmark: renderer: unsafe: true # HUGO 默认转义 Markdown 文件中的 HTML 代码，如需开启的话 highlight: # anchorLineNos: true codeFences: true guessSyntax: true # lineNos: true noClasses: true tabWidth: 4 style: monokai # codeFences：代码围栏功能，这个功能一般都要设为 true 的，不然很难看，就是干巴巴的-代码文字，没有颜色。 # guessSyntax：猜测语法，这个功能建议设置为 true, 如果你没有设置要显示的语言则会自动匹配。 # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。 # lineNoStart：行号从编号几开始，一般从 1 开始。 # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true. # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true. # noClasses：使用 class 标签，而不是内嵌的内联样式 privacy: vimeo: disabled: false simple: true twitter: disabled: false enableDNT: true simple: true instagram: disabled: false simple: true youtube: disabled: false privacyEnhanced: true services: instagram: disableInlineCSS: true twitter: disableInlineCSS: true 4 写markdown文章 $ hugo new posts/create_hugo_blog /Users/ketonghe/blog/content/posts/create_hugo_blog 用markdown编辑器编辑文章\n5 发布预览 $ hugo server -D | ZH +------------------+----+ Pages | 13 Paginator pages | 0 Non-page files | 0 Static files | 9 Processed images | 0 Aliases | 6 Sitemaps | 1 Cleaned | 0 Total in 91 ms Watching for changes in /Users/ketonghe/blog/{archetypes,content,data,layouts,static,themes} Watching for config changes in /Users/ketonghe/blog/config.yml Environment: \"development\" Serving pages from memory Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) Press Ctrl+C to stop 接下来就可以在本地浏览器 输入http://localhost:1313/ 访问了\n这个主题支持站内搜索 还不错\n6 添加评论支持 todo\n7 生成静态页面 这里可以用github的action自动部署\nname: CI #自动化的名称 on: push: # push的时候触发 branches: # 那些分支需要触发 - master jobs: build: runs-on: ubuntu-latest steps: - name: Checkout uses: actions/checkout@v2 with: submodules: true fetch-depth: 0 - name: Setup Hugo uses: peaceiris/actions-hugo@v2 with: hugo-version: \"latest\" - name: Build Web run: hugo - name: Deploy Web uses: peaceiris/actions-gh-pages@v4 with: PERSONAL_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }} EXTERNAL_REPOSITORY: heketong/heketong.github.io PUBLISH_BRANCH: master PUBLISH_DIR: ./public ",
+  "wordCount" : "1689",
   "inLanguage": "zh",
-  "datePublished": "2020-05-13T22:45:46+08:00",
-  "dateModified": "2020-05-13T22:45:46+08:00",
+  "datePublished": "2020-05-04T22:45:46+08:00",
+  "dateModified": "2020-05-04T22:45:46+08:00",
   "author":[{
     "@type": "Person",
     "name": "becool"
@@ -290,7 +290,7 @@ var _hmt = _hmt || [];
 <span class="parent-post-meta">
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
-        <span>2020-05-13
+        <span>2020-05-04
             &nbsp;&nbsp;
         </span>
     </span>
@@ -303,7 +303,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>1609字
+        <span>1689字
             &nbsp;&nbsp;
         </span>
     </span>
@@ -739,7 +739,38 @@ var _hmt = _hmt || [];
 <p>todo</p>
 <h2 id="7-生成静态页面">7 生成静态页面<a hidden class="anchor" aria-hidden="true" href="#7-生成静态页面">#</a></h2>
 <ul>
-<li>这里可以用github的action自动部署</li>
+<li>
+<p>这里可以用github的action自动部署</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>name: CI #自动化的名称
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>on:
+</span></span><span style="display:flex;"><span>  push: # push的时候触发
+</span></span><span style="display:flex;"><span>    branches: # 那些分支需要触发
+</span></span><span style="display:flex;"><span>      - master
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>jobs:
+</span></span><span style="display:flex;"><span>  build:
+</span></span><span style="display:flex;"><span>    runs-on: ubuntu-latest
+</span></span><span style="display:flex;"><span>    steps:
+</span></span><span style="display:flex;"><span>      - name: Checkout
+</span></span><span style="display:flex;"><span>        uses: actions/checkout@v2
+</span></span><span style="display:flex;"><span>        with:
+</span></span><span style="display:flex;"><span>          submodules: true
+</span></span><span style="display:flex;"><span>          fetch-depth: 0
+</span></span><span style="display:flex;"><span>      - name: Setup Hugo
+</span></span><span style="display:flex;"><span>        uses: peaceiris/actions-hugo@v2
+</span></span><span style="display:flex;"><span>        with:
+</span></span><span style="display:flex;"><span>          hugo-version: &#34;latest&#34;
+</span></span><span style="display:flex;"><span>      - name: Build Web
+</span></span><span style="display:flex;"><span>        run: hugo
+</span></span><span style="display:flex;"><span>      - name: Deploy Web
+</span></span><span style="display:flex;"><span>        uses: peaceiris/actions-gh-pages@v4
+</span></span><span style="display:flex;"><span>        with:
+</span></span><span style="display:flex;"><span>          PERSONAL_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+</span></span><span style="display:flex;"><span>          EXTERNAL_REPOSITORY: heketong/heketong.github.io
+</span></span><span style="display:flex;"><span>          PUBLISH_BRANCH: master
+</span></span><span style="display:flex;"><span>          PUBLISH_DIR: ./public
+</span></span></code></pre></div></li>
 </ul>
 
 
@@ -775,10 +806,10 @@ var _hmt = _hmt || [];
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="prev" href="http://heketong.github.io/posts/life/marathons/">
+  <a class="prev" href="http://heketong.github.io/posts/tech/%E6%8E%92%E5%BA%8F_%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">
     <span class="title">« 上一页</span>
     <br>
-    <span>100场马拉松</span>
+    <span>排序_数据结构与算法</span>
   </a>
   <a class="next" href="http://heketong.github.io/posts/tech/tcp_ip/">
     <span class="title">下一页 »</span>

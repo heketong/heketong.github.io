@@ -81,8 +81,8 @@ var _hmt = _hmt || [];
 <meta property="og:description" content="常用数据结构记录" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://heketong.github.io/posts/tech/%E5%B8%B8%E7%94%A8%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-05-13T22:45:46+08:00" />
-<meta property="article:modified_time" content="2020-05-13T22:45:46+08:00" />
+<meta property="article:published_time" content="2020-05-20T22:45:46+08:00" />
+<meta property="article:modified_time" content="2020-05-20T22:45:46+08:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="常用数据结构"/>
@@ -130,8 +130,8 @@ var _hmt = _hmt || [];
   "articleBody": "时间复杂度 常数时间操作O(1) 操作时间是固定的次数，跟数据量本身没有关系，就是其时间复杂度是O(1),比如总是比较1次或者3次，比如总是累加3次，总是赋值3次等等，无论样本数据量是多少，总是如此，我们就说起操作时间是常数时间，也就是O(1)\n实际评估过程中一般是循环多多少次，比较了多少次等等计算出一个表达式，然后对于表达式只要高阶项，不要低阶项，也不要高阶项的系数，剩下的部分 如果记为f(N)，那么时间复杂度为O(f(N)). N为样本量\n一个简单的例子：\n比如计算出的表达式为f(N)=2$N^2$+3N+3 这里面的高阶项就是$N^2$，对应高阶项的系数就是2 低阶项就是3N和3 最后f(N)=$N^2$\n算法流程的好坏，先看时间复杂度的指标，然后再分 析不同数据样本下的实际运行时间，也就是常数项时间\n例子 一个有序数组A，另一个无序数组B，请打印B中的所有不在A中的数，A数 组长度为N，B数组长度为M。\n算法流程1:对于数组B中的每一个数，都在A中通过遍历的方式找一下;\n算法流程2:对于数组B中的每一个数，都在A中通过二分的方式找一下;\n算法流程3:先把数组B排序，然后用类似外排的方式打印所有在A中出现 的数;\n代码实现及算法时间复杂度分析 三种算法代码实现 二分有递归和非递归 排序用的是归并递归实现 ```c++ // 一个**有序**数组A，另一个**无序**数组B，请打印B中的所有不在A中的数，A数 组长度为N，B数组长度为M。 // 算法流程1:对于数组B中的每一个数，都在A中通过遍历的方式找一下; // 算法流程2:对于数组B中的每一个数，都在A中通过二分的方式找一下; // 算法流程3:先把数组B排序，然后用类似外排的方式打印所有在A中出现 的数; #include using namespace std; //打印数组 void printArray(int a[],int la){ cout\u003c\u003c\"[\"; for(int i=0;i",
   "wordCount" : "720",
   "inLanguage": "zh",
-  "datePublished": "2020-05-13T22:45:46+08:00",
-  "dateModified": "2020-05-13T22:45:46+08:00",
+  "datePublished": "2020-05-20T22:45:46+08:00",
+  "dateModified": "2020-05-20T22:45:46+08:00",
   "author":[{
     "@type": "Person",
     "name": "becool"
@@ -290,7 +290,7 @@ var _hmt = _hmt || [];
 <span class="parent-post-meta">
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
-        <span>2020-05-13
+        <span>2020-05-20
             &nbsp;&nbsp;
         </span>
     </span>
@@ -7558,15 +7558,15 @@ step 4 返回以r结点为根的树的头与尾 ：Lhead、RTail
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="prev" href="http://heketong.github.io/posts/tech/tcp_ip/">
+  <a class="prev" href="http://heketong.github.io/posts/life/marathons/">
     <span class="title">« 上一页</span>
     <br>
-    <span>TCP/IP</span>
+    <span>100场马拉松</span>
   </a>
-  <a class="next" href="http://heketong.github.io/posts/tech/%E5%88%86%E5%B8%83%E5%BC%8F/">
+  <a class="next" href="http://heketong.github.io/posts/tech/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">
     <span class="title">下一页 »</span>
     <br>
-    <span>分布式</span>
+    <span>设计模式</span>
   </a>
 </nav>
 
