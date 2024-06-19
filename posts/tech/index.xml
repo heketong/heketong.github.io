@@ -6,7 +6,16 @@
     <description>Recent content in 👨🏻‍💻 技术 on 疯子爱淡定</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 04 May 2024 22:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jun 2024 09:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/posts/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>获取网站cookie</title>
+      <link>http://heketong.github.io/posts/tech/%E8%8E%B7%E5%8F%96%E7%BD%91%E7%AB%99cookie/</link>
+      <pubDate>Wed, 19 Jun 2024 09:45:46 +0800</pubDate>
+      
+      <guid>http://heketong.github.io/posts/tech/%E8%8E%B7%E5%8F%96%E7%BD%91%E7%AB%99cookie/</guid>
+      <description>获取网站cookie</description>
+    </item>
+    
     <item>
       <title>任意2台电脑之间快速安全的传输文件</title>
       <link>http://heketong.github.io/posts/tech/croc_sendfile/</link>
@@ -14,15 +23,6 @@
       
       <guid>http://heketong.github.io/posts/tech/croc_sendfile/</guid>
       <description>任意2台电脑之间快速安全的传输文件</description>
-    </item>
-    
-    <item>
-      <title>获取网站cookie</title>
-      <link>http://heketong.github.io/posts/tech/%E8%8E%B7%E5%8F%96%E7%BD%91%E7%AB%99cookie/</link>
-      <pubDate>Fri, 19 Jun 2020 09:45:46 +0800</pubDate>
-      
-      <guid>http://heketong.github.io/posts/tech/%E8%8E%B7%E5%8F%96%E7%BD%91%E7%AB%99cookie/</guid>
-      <description>获取网站cookie</description>
     </item>
     
     <item>
