@@ -12,11 +12,11 @@
 <link rel="canonical" href="http://heketong.github.io/posts/tech/%E9%AB%98%E5%B9%B6%E5%8F%91/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="http://becool.vip:666/img/heketong_profile_photo.JPG">
-<link rel="icon" type="image/png" sizes="16x16" href="http://becool.vip:666/img/heketong_profile_photo.JPG">
-<link rel="icon" type="image/png" sizes="32x32" href="http://becool.vip:666/img/heketong_profile_photo.JPG">
-<link rel="apple-touch-icon" href="http://becool.vip:666/img/heketong_profile_photo.JPG">
-<link rel="mask-icon" href="http://becool.vip:666/img/heketong_profile_photo.JPG">
+<link rel="icon" href="http://becool.vip:4967/heketong_profile_photo.JPG">
+<link rel="icon" type="image/png" sizes="16x16" href="http://becool.vip:4967/heketong_profile_photo.JPG">
+<link rel="icon" type="image/png" sizes="32x32" href="http://becool.vip:4967/heketong_profile_photo.JPG">
+<link rel="apple-touch-icon" href="http://becool.vip:4967/heketong_profile_photo.JPG">
+<link rel="mask-icon" href="http://becool.vip:4967/heketong_profile_photo.JPG">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" hreflang="zh" href="http://heketong.github.io/posts/tech/%E9%AB%98%E5%B9%B6%E5%8F%91/">
@@ -145,7 +145,7 @@ var _hmt = _hmt || [];
     "name": "疯子爱淡定",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://becool.vip:666/img/heketong_profile_photo.JPG"
+      "url": "http://becool.vip:4967/heketong_profile_photo.JPG"
     }
   }
 }
@@ -181,7 +181,7 @@ var _hmt = _hmt || [];
     <nav class="nav">
         <div class="logo">
             <a href="http://heketong.github.io/" accesskey="h" title="疯子爱淡定 (Alt + H)">
-            <img src="http://becool.vip:666/img/heketong_profile_photo.JPG" alt="logo" aria-label="logo"
+            <img src="http://becool.vip:4967/heketong_profile_photo.JPG" alt="logo" aria-label="logo"
                  height="35">疯子爱淡定</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
@@ -918,12 +918,12 @@ var _hmt = _hmt || [];
 <p>每个进程可以通过系统调用进入内核，因此linux内核有系统内的所有进程共享，空间分配图大致如下:</p>
 </li>
 </ul>
-<p><img loading="lazy" src="http://becool.vip:666/img/linux32%e4%bd%8d%e7%94%a8%e6%88%b7%e7%a9%ba%e9%97%b4%e5%86%85%e6%a0%b8%e7%a9%ba%e9%97%b4%e5%88%86%e9%85%8d%e7%a4%ba%e6%84%8f%e5%9b%be.png" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/linux32%e4%bd%8d%e7%94%a8%e6%88%b7%e7%a9%ba%e9%97%b4%e5%86%85%e6%a0%b8%e7%a9%ba%e9%97%b4%e5%88%86%e9%85%8d%e7%a4%ba%e6%84%8f%e5%9b%be.png" alt=""  />
 </p>
 <ul>
 <li>
 <p>linux系统内部结构大值图示:</p>
-<p><img loading="lazy" src="http://becool.vip:666/img/linux%e7%b3%bb%e7%bb%9f%e5%86%85%e9%83%a8%e7%bb%93%e6%9e%84%e5%a4%a7%e8%87%b4%e7%a4%ba%e6%84%8f%e5%9b%be.png" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/linux%e7%b3%bb%e7%bb%9f%e5%86%85%e9%83%a8%e7%bb%93%e6%9e%84%e5%a4%a7%e8%87%b4%e7%a4%ba%e6%84%8f%e5%9b%be.png" alt=""  />
 </p>
 </li>
 <li>
@@ -1004,7 +1004,7 @@ var _hmt = _hmt || [];
 <ul>
 <li>
 <p>默认linux所有的socket都是blocking的(有API设置为nonblocking),典型读操作流程如下:</p>
-<p><img loading="lazy" src="http://becool.vip:666/img/BlockingIO_Read_model%e5%9b%be%e8%a7%a3.png" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/BlockingIO_Read_model%e5%9b%be%e8%a7%a3.png" alt=""  />
 </p>
 </li>
 <li>
@@ -1016,7 +1016,7 @@ var _hmt = _hmt || [];
 </ul>
 <p>blocking IO的特点就是IO执行的2个阶段，进程一致处于阻塞状态 不能执行其它任务</p>
 <p>下面再摘一个图:</p>
-<p><img loading="lazy" src="http://becool.vip:666/img/block-read.png" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/block-read.png" alt=""  />
 </p>
 </li>
 </ul>
@@ -1024,7 +1024,7 @@ var _hmt = _hmt || [];
 <ul>
 <li>可以调用API将socket设置为non-blocking 大致流程如下</li>
 </ul>
-<p><img loading="lazy" src="http://becool.vip:666/img/nonblockingIO_ReadData%e6%b5%81%e7%a8%8b%e5%9b%be%e8%a7%a3.png" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/nonblockingIO_ReadData%e6%b5%81%e7%a8%8b%e5%9b%be%e8%a7%a3.png" alt=""  />
 </p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>while ( recv(data)!=OK ){//系统调用recv不会阻塞，如果data is not ready,内核立马返回失败
 </span></span><span style="display:flex;"><span>	wait sometime;//进程判断失败 往往休眠一定时间 再次调用recv系统调用
@@ -1039,7 +1039,7 @@ var _hmt = _hmt || [];
 </li>
 <li>
 <p>select方式多路复用图解
-<img loading="lazy" src="http://becool.vip:666/img/select%e5%a4%9a%e8%b7%af%e5%a4%8d%e7%94%a8%e5%9b%be%e8%a7%a3.png" alt=""  />
+<img loading="lazy" src="http://becool.vip:4967/select%e5%a4%9a%e8%b7%af%e5%a4%8d%e7%94%a8%e5%9b%be%e8%a7%a3.png" alt=""  />
 </p>
 <p>select过程大致如下</p>
 <ul>
@@ -1063,7 +1063,7 @@ var _hmt = _hmt || [];
 <ul>
 <li>
 <p>异步IO个人接触的也不多，也是大致了解流程，看个图：</p>
-<p><img loading="lazy" src="http://becool.vip:666/img/AsynchronousIO_%e5%bc%82%e6%ad%a5IO%e6%b5%81%e7%a8%8b%e5%9b%be%e8%a7%a3.png" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/AsynchronousIO_%e5%bc%82%e6%ad%a5IO%e6%b5%81%e7%a8%8b%e5%9b%be%e8%a7%a3.png" alt=""  />
 </p>
 </li>
 <li>
@@ -1091,7 +1091,7 @@ var _hmt = _hmt || [];
 </ul>
 <p>如果执行IO操作 进程被block就是同步，否则就是异步 上面的4种IO模式，除了最后的AIO都是同步IO，IO多路复用虽然将socket设置为non-blocking,但其实调用select/poll/epoll还是会blocking</p>
 <h3 id="几种io模式比较图">几种IO模式比较图<a hidden class="anchor" aria-hidden="true" href="#几种io模式比较图">#</a></h3>
-<p><img loading="lazy" src="http://becool.vip:666/img/IO_Model%e6%af%94%e8%be%83%e5%9b%be.png" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/IO_Model%e6%af%94%e8%be%83%e5%9b%be.png" alt=""  />
 </p>
 <h2 id="同步阻塞bio-服务端单任务">同步阻塞BIO 服务端单任务<a hidden class="anchor" aria-hidden="true" href="#同步阻塞bio-服务端单任务">#</a></h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>listenFd=socket(...);//创建socket
@@ -2057,7 +2057,7 @@ static void modify_event(int epollfd,int fd,int state)
 <li>
 <p>多核cpu，就有多个cpu缓存，而它们彼此不可见，每个cpu也是操作的自己独立的cpu缓存，这就必然产生不可见性，比如a=a+1</p>
 <p>cpu1修改了对应的cpu缓存，而此时cpu2是不知道的，必须等缓存同步以后才知道。</p>
-<p><img loading="lazy" src="http://becool.vip:666/img/cpu%e5%a4%9a%e7%bc%93%e5%ad%98%e5%8f%af%e8%a7%81%e6%80%a7%e9%97%ae%e9%a2%98.jpg" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/cpu%e5%a4%9a%e7%bc%93%e5%ad%98%e5%8f%af%e8%a7%81%e6%80%a7%e9%97%ae%e9%a2%98.jpg" alt=""  />
 </p>
 </li>
 <li>
@@ -2081,7 +2081,7 @@ static void modify_event(int epollfd,int fd,int state)
 <ul>
 <li>如果有2个线程都在执行上面的例子，cpu的执行流程可能如下：</li>
 </ul>
-<p><img loading="lazy" src="http://becool.vip:666/img/cpu%e7%ba%bf%e7%a8%8b%e5%88%87%e6%8d%a2%e7%a0%b4%e5%9d%8f%e5%8e%9f%e5%ad%90%e6%80%a7.jpg" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/cpu%e7%ba%bf%e7%a8%8b%e5%88%87%e6%8d%a2%e7%a0%b4%e5%9d%8f%e5%8e%9f%e5%ad%90%e6%80%a7.jpg" alt=""  />
 </p>
 <p><strong>执行细节：</strong></p>
 </li>
@@ -2541,7 +2541,7 @@ static void modify_event(int epollfd,int fd,int state)
 </li>
 <li>
 <p>对每一个新的client 创建对应的处理进程/线程(完成read&mdash;&gt;business process&mdash;&gt;send)</p>
-<p><img loading="lazy" src="http://becool.vip:666/img/ppc_tpc_notPreModel.jpeg" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/ppc_tpc_notPreModel.jpeg" alt=""  />
 </p>
 </li>
 </ol>
@@ -2555,7 +2555,7 @@ static void modify_event(int epollfd,int fd,int state)
 </li>
 <li>
 <p>连接进来分配到预先创建好的处理进程/线程</p>
-<p><img loading="lazy" src="http://becool.vip:666/img/ppc_tpc_prework.jpeg" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/ppc_tpc_prework.jpeg" alt=""  />
 </p>
 </li>
 </ol>
@@ -2588,7 +2588,7 @@ static void modify_event(int epollfd,int fd,int state)
 </ul>
 </li>
 </ol>
-<p><img loading="lazy" src="http://becool.vip:666/img/redis_IO%e7%ae%80%e5%8d%95%e7%90%86%e8%a7%a3.jpeg" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/redis_IO%e7%ae%80%e5%8d%95%e7%90%86%e8%a7%a3.jpeg" alt=""  />
 </p>
 <h3 id="总结-1">总结<a hidden class="anchor" aria-hidden="true" href="#总结-1">#</a></h3>
 <ul>
@@ -2624,7 +2624,7 @@ static void modify_event(int epollfd,int fd,int state)
 </li>
 <li>
 <p>子线程从队列取出请求，进行business process，处理完成应答报文还是交由主线程send给client(clientfd在主线程hold)</p>
-<p><img loading="lazy" src="http://becool.vip:666/img/%e5%8d%95reactor_%e5%8d%95%e9%98%9f%e5%88%97_worker%e7%ba%bf%e7%a8%8b%e6%b1%a0.jpeg" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/%e5%8d%95reactor_%e5%8d%95%e9%98%9f%e5%88%97_worker%e7%ba%bf%e7%a8%8b%e6%b1%a0.jpeg" alt=""  />
 </p>
 </li>
 </ol>
@@ -2653,9 +2653,9 @@ static void modify_event(int epollfd,int fd,int state)
 <li>每个worker线程 采用IO多路复用技术从自己的队列中取出connfd，然后read&mdash;&gt;business process&ndash;&gt;send</li>
 <li>每个worker线程的队列存放的是connfd，我理解这种其实也算是主从Reactor模式(master Reactor只accept，然后扔给多个subReactor)</li>
 </ol>
-<p><img loading="lazy" src="http://becool.vip:666/img/memcached_IO%e6%a8%a1%e5%9e%8b.png" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/memcached_IO%e6%a8%a1%e5%9e%8b.png" alt=""  />
 </p>
-<p><img loading="lazy" src="http://becool.vip:666/img/memcached_IO%e6%a8%a1%e5%9e%8b1.jpeg" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/memcached_IO%e6%a8%a1%e5%9e%8b1.jpeg" alt=""  />
 </p>
 <h3 id="总结-3">总结<a hidden class="anchor" aria-hidden="true" href="#总结-3">#</a></h3>
 <ul>
@@ -2669,7 +2669,7 @@ static void modify_event(int epollfd,int fd,int state)
 <li>每个worker进程 同时accept客户端连接(accept_mutex锁解决惊群问题)，也就是每个worker自己抢客户，同时处理自己抢到的多个客户(epoll_wait)</li>
 <li>worker进程根据自身负载情况，选择性地不去accept新fd，从而实现负载均衡</li>
 </ol>
-<p><img loading="lazy" src="http://becool.vip:666/img/nginx_IO%e6%a8%a1%e5%9e%8b.jpeg" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/nginx_IO%e6%a8%a1%e5%9e%8b.jpeg" alt=""  />
 </p>
 <h3 id="总结-4">总结<a hidden class="anchor" aria-hidden="true" href="#总结-4">#</a></h3>
 <ul>
@@ -2705,7 +2705,7 @@ static void modify_event(int epollfd,int fd,int state)
 </ul>
 </li>
 </ol>
-<p><img loading="lazy" src="http://becool.vip:666/img/%e4%b8%bb%e4%bb%8e%e5%a4%9areactor%e5%a4%9a%e7%ba%bf%e7%a8%8bIO%e6%a8%a1%e5%9e%8b.png" alt=""  />
+<p><img loading="lazy" src="http://becool.vip:4967/%e4%b8%bb%e4%bb%8e%e5%a4%9areactor%e5%a4%9a%e7%ba%bf%e7%a8%8bIO%e6%a8%a1%e5%9e%8b.png" alt=""  />
 </p>
 <h2 id="总结-5">总结：<a hidden class="anchor" aria-hidden="true" href="#总结-5">#</a></h2>
 <p>这种模式理论上是性能最完美的模型，相对就是开发难度相对较大，可以使用一些现成的框架降低开发难度(Java.Netty、c++改造libevent等等)</p>
@@ -4566,7 +4566,7 @@ caddr_t ifru_data;
 </ul>
 <h3 id="结构">结构<a hidden class="anchor" aria-hidden="true" href="#结构">#</a></h3>
 <p>​	消息队列就是一个消息的链表。每个消息队列都有一个队列头，用结构struct msg_queue来描述。队列头中包含了该消息队列的大量信息，包括消息队列键值、用户ID、组ID、消息队列中消息数目等等，甚至记录了最近对消息队列读写进程的ID。读者可以访问这些信息，也可以设置其中的某些信息。</p>
-<p>​	<img loading="lazy" src="http://becool.vip:666/img/%e6%b6%88%e6%81%af%e9%98%9f%e5%88%97%e7%bb%93%e6%9e%84%e5%9b%be.png" alt=""  />
+<p>​	<img loading="lazy" src="http://becool.vip:4967/%e6%b6%88%e6%81%af%e9%98%9f%e5%88%97%e7%bb%93%e6%9e%84%e5%9b%be.png" alt=""  />
 </p>
 <ul>
 <li>
@@ -4629,12 +4629,12 @@ caddr_t ifru_data;
                 <div id="QR" style="opacity: 0;">
                     <div id="wechat" style="display: inline-block">
                         <a class="fancybox" rel="group">
-                            <img id="wechat_qr" src="http://becool.vip:666/img/wechatpayimg.JPG" alt="wechat_pay"></a>
+                            <img id="wechat_qr" src="http://becool.vip:4967/wechatpayimg.JPG" alt="wechat_pay"></a>
                         <p>微信</p>
                     </div>
                     <div id="alipay" style="display: inline-block">
                         <a class="fancybox" rel="group">
-                            <img id="alipay_qr" src="http://becool.vip:666/img/alipayimg.JPG" alt="alipay"></a>
+                            <img id="alipay_qr" src="http://becool.vip:4967/alipayimg.JPG" alt="alipay"></a>
                         <p>支付宝</p>
                     </div>
                 </div>
