@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://heketong.github.io/posts/tech/</loc>
+    <lastmod>2024-06-19T15:45:46+08:00</lastmod>
+  </url><url>
     <loc>http://heketong.github.io/posts/</loc>
-    <lastmod>2024-06-19T14:45:46+08:00</lastmod>
+    <lastmod>2024-06-19T15:45:46+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/categories/</loc>
-    <lastmod>2024-06-19T14:45:46+08:00</lastmod>
+    <lastmod>2024-06-19T15:45:46+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/tags/send-anywhere/</loc>
+    <lastmod>2024-06-19T15:45:46+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/tags/</loc>
+    <lastmod>2024-06-19T15:45:46+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/</loc>
+    <lastmod>2024-06-19T15:45:46+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/posts/tech/send-anywhere-%E6%89%8B%E6%9C%BA%E7%94%B5%E8%84%91%E9%97%B4%E4%BC%A0%E8%BE%93%E6%96%87%E4%BB%B6/</loc>
+    <lastmod>2024-06-19T15:45:46+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/tags/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/</loc>
+    <lastmod>2024-06-19T15:45:46+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/categories/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/</loc>
+    <lastmod>2024-06-19T15:45:46+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/tags/music/</loc>
     <lastmod>2024-06-19T14:45:46+08:00</lastmod>
   </url><url>
-    <loc>http://heketong.github.io/tags/</loc>
-    <lastmod>2024-06-19T14:45:46+08:00</lastmod>
-  </url><url>
     <loc>http://heketong.github.io/posts/music/</loc>
-    <lastmod>2024-06-19T14:45:46+08:00</lastmod>
-  </url><url>
-    <loc>http://heketong.github.io/</loc>
     <lastmod>2024-06-19T14:45:46+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/tags/%E4%B8%8B%E8%BD%BD/</loc>
@@ -28,9 +43,6 @@
   </url><url>
     <loc>http://heketong.github.io/posts/music/%E9%9F%B3%E4%B9%90%E4%B8%8B%E8%BD%BD/</loc>
     <lastmod>2024-06-19T14:45:46+08:00</lastmod>
-  </url><url>
-    <loc>http://heketong.github.io/posts/tech/</loc>
-    <lastmod>2024-06-19T09:45:46+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/tags/cookie/</loc>
     <lastmod>2024-06-19T09:45:46+08:00</lastmod>
@@ -69,12 +81,6 @@
     <lastmod>2024-05-04T22:45:46+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/posts/tech/croc_sendfile/</loc>
-    <lastmod>2024-05-04T22:45:46+08:00</lastmod>
-  </url><url>
-    <loc>http://heketong.github.io/tags/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/</loc>
-    <lastmod>2024-05-04T22:45:46+08:00</lastmod>
-  </url><url>
-    <loc>http://heketong.github.io/categories/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93/</loc>
     <lastmod>2024-05-04T22:45:46+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/posts/read/</loc>
