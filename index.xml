@@ -6,7 +6,16 @@
     <description>Recent content on 疯子爱淡定</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 19 Jun 2024 15:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Jun 2024 11:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>脚本定期将hugo博客网址收录到百度</title>
+      <link>http://heketong.github.io/posts/tech/baidusiterecord/</link>
+      <pubDate>Thu, 20 Jun 2024 11:45:46 +0800</pubDate>
+      
+      <guid>http://heketong.github.io/posts/tech/baidusiterecord/</guid>
+      <description>百度每天只能收录10个网址，写个脚本定期调用API收录下</description>
+    </item>
+    
     <item>
       <title>手机电脑间传输文件</title>
       <link>http://heketong.github.io/posts/tech/send-anywhere-%E6%89%8B%E6%9C%BA%E7%94%B5%E8%84%91%E9%97%B4%E4%BC%A0%E8%BE%93%E6%96%87%E4%BB%B6/</link>

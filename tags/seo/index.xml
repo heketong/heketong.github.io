@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SEO on 疯子爱淡定</title>
+    <link>http://heketong.github.io/tags/seo/</link>
+    <description>Recent content in SEO on 疯子爱淡定</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 20 Jun 2024 11:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>脚本定期将hugo博客网址收录到百度</title>
+      <link>http://heketong.github.io/posts/tech/baidusiterecord/</link>
+      <pubDate>Thu, 20 Jun 2024 11:45:46 +0800</pubDate>
+      
+      <guid>http://heketong.github.io/posts/tech/baidusiterecord/</guid>
+      <description>百度每天只能收录10个网址，写个脚本定期调用API收录下</description>
+    </item>
+    
+  </channel>
+</rss>
