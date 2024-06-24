@@ -2,25 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://heketong.github.io/posts/tech/</loc>
-    <lastmod>2024-06-20T11:45:46+08:00</lastmod>
+    <loc>http://heketong.github.io/posts/read/</loc>
+    <lastmod>2024-06-24T00:18:06+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/posts/</loc>
-    <lastmod>2024-06-20T11:45:46+08:00</lastmod>
+    <lastmod>2024-06-24T00:18:06+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/categories/</loc>
+    <lastmod>2024-06-24T00:18:06+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/tags/</loc>
+    <lastmod>2024-06-24T00:18:06+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/posts/read/%E6%96%91%E9%A9%AC%E8%AF%AD%E6%96%87%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2024-06-24T00:18:06+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/tags/%E5%84%BF%E7%AB%A5%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B/</loc>
+    <lastmod>2024-06-24T00:18:06+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/</loc>
+    <lastmod>2024-06-24T00:18:06+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/tags/%E8%82%B2%E5%84%BF%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2024-06-24T00:18:06+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/categories/%E8%82%B2%E5%84%BF%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2024-06-24T00:18:06+08:00</lastmod>
+  </url><url>
+    <loc>http://heketong.github.io/posts/tech/</loc>
     <lastmod>2024-06-20T11:45:46+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/tags/seo/</loc>
     <lastmod>2024-06-20T11:45:46+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/categories/seo/</loc>
-    <lastmod>2024-06-20T11:45:46+08:00</lastmod>
-  </url><url>
-    <loc>http://heketong.github.io/tags/</loc>
-    <lastmod>2024-06-20T11:45:46+08:00</lastmod>
-  </url><url>
-    <loc>http://heketong.github.io/</loc>
     <lastmod>2024-06-20T11:45:46+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/posts/tech/baidusiterecord/</loc>
@@ -94,9 +109,6 @@
   </url><url>
     <loc>http://heketong.github.io/posts/tech/croc_sendfile/</loc>
     <lastmod>2024-05-04T22:45:46+08:00</lastmod>
-  </url><url>
-    <loc>http://heketong.github.io/posts/read/</loc>
-    <lastmod>2022-05-05T00:18:06+08:00</lastmod>
   </url><url>
     <loc>http://heketong.github.io/posts/read/%E6%B2%B3%E8%A5%BF%E8%B5%B0%E5%BB%8A/</loc>
     <lastmod>2022-05-05T00:18:06+08:00</lastmod>
