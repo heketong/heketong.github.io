@@ -127,8 +127,8 @@ var _hmt = _hmt || [];
   "keywords": [
     "百度", "收录"
   ],
-  "articleBody": "脚本扫描hugo网站所有网页 调用API进行百度搜索收录 hugo博客会将所有网页都生成到sitemap.xml中 扫描即可 取出10条未成功收录过的网址 token需要事先从https://ziyuan.baidu.com/site/index获取 需要登录百度帐号 site:www.becool.vip 需要替换成自己的网站 #!/usr/bin/zsh source ~/.zshrc #找到所有的网址 grep -o '.*' /home/ubuntu/blog/public/sitemap.xml | sed 's/\\(.*\\)\u003c\\/loc\u003e/\\1/' \u003e/tmp/sendSitemap/allurl.txt #从allurl.txt中找到10条不在success.txt中的文本行 写入sendurl.txt grep -v -F -x -f /tmp/sendSitemap/success.txt /tmp/sendSitemap/allurl.txt | head -n 10 \u003e/tmp/sendSitemap/sendurl.txt #调用百度API curl -H 'Content-Type:text/plain' --data-binary @/tmp/sendSitemap/sendurl.txt \"http://data.zz.baidu.com/urls?site=www.becool.vip\u0026token=xxxtoken\" -o /tmp/sendSitemap/result.txt \u003e/dev/null 2\u003e\u00261 result=\"百度搜索网址收录同步结果 $(cat /tmp/sendSitemap/result.txt)\" #将结果通知到自己手机 /home/ubuntu/shell/SelfNotify $result 添加定时任务 crontab -e 每天7点调用 0 7 * * * nohup /home/ubuntu/shell/BaiduSiteRecord.sh \u003e /home/ubuntu/shell/BaiduSiteRecord.log 2\u003e\u00261 \u0026 ",
-  "wordCount" : "301",
+  "articleBody": "脚本扫描hugo网站所有网页 调用API进行百度搜索收录 hugo博客会将所有网页都生成到sitemap.xml中 扫描即可 取出10条未成功收录过的网址 token需要事先从https://ziyuan.baidu.com/site/index获取 需要登录百度帐号 site:www.becool.vip 需要替换成自己的网站 #!/usr/bin/zsh source ~/.zshrc #找到所有的网址 grep -o '.*' /home/ubuntu/blog/public/sitemap.xml | sed 's/\\(.*\\)\u003c\\/loc\u003e/\\1/' \u003e/tmp/sendSitemap/allurl.txt #从allurl.txt中找到10条不在success.txt中的文本行 写入sendurl.txt grep -v -F -x -f /tmp/sendSitemap/success.txt /tmp/sendSitemap/allurl.txt | head -n 10 \u003e/tmp/sendSitemap/sendurl.txt #调用百度API curl -H 'Content-Type:text/plain' --data-binary @/tmp/sendSitemap/sendurl.txt \"http://data.zz.baidu.com/urls?site=www.becool.vip\u0026token=xxxtoken\" -o /tmp/sendSitemap/result.txt \u003e/dev/null 2\u003e\u00261 # 收录成功则追加 sendurl.txt 的内容到 success.txt 文件 if grep -q \"success\" /tmp/sendSitemap/result.txt; then cat /tmp/sendSitemap/sendurl.txt \u003e\u003e /tmp/sendSitemap/success.txt fi result=\"百度搜索网址收录同步结果 $(cat /tmp/sendSitemap/result.txt)\" #将结果通知到自己手机 /home/ubuntu/shell/SelfNotify $result 添加定时任务 crontab -e 每天7点调用 0 7 * * * nohup /home/ubuntu/shell/BaiduSiteRecord.sh \u003e /home/ubuntu/shell/BaiduSiteRecord.log 2\u003e\u00261 \u0026 ",
+  "wordCount" : "328",
   "inLanguage": "zh",
   "datePublished": "2024-06-20T11:45:46+08:00",
   "dateModified": "2024-06-20T11:45:46+08:00",
@@ -303,7 +303,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>301字
+        <span>328字
             &nbsp;&nbsp;
         </span>
     </span>
@@ -468,6 +468,10 @@ var _hmt = _hmt || [];
 </span></span><span style="display:flex;"><span>grep -v -F -x -f /tmp/sendSitemap/success.txt /tmp/sendSitemap/allurl.txt | head -n <span style="color:#ae81ff">10</span> &gt;/tmp/sendSitemap/sendurl.txt
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#调用百度API </span>
 </span></span><span style="display:flex;"><span>curl -H <span style="color:#e6db74">&#39;Content-Type:text/plain&#39;</span> --data-binary @/tmp/sendSitemap/sendurl.txt <span style="color:#e6db74">&#34;http://data.zz.baidu.com/urls?site=www.becool.vip&amp;token=xxxtoken&#34;</span> -o /tmp/sendSitemap/result.txt &gt;/dev/null 2&gt;&amp;<span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 收录成功则追加 sendurl.txt 的内容到 success.txt 文件</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> grep -q <span style="color:#e6db74">&#34;success&#34;</span> /tmp/sendSitemap/result.txt; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>  cat /tmp/sendSitemap/sendurl.txt &gt;&gt; /tmp/sendSitemap/success.txt
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
 </span></span><span style="display:flex;"><span>result<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;百度搜索网址收录同步结果 </span><span style="color:#66d9ef">$(</span>cat /tmp/sendSitemap/result.txt<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#将结果通知到自己手机</span>
 </span></span><span style="display:flex;"><span>/home/ubuntu/shell/SelfNotify $result
