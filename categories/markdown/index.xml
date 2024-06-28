@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MarkDown on 疯子爱淡定</title>
+    <link>http://heketong.github.io/categories/markdown/</link>
+    <description>Recent content in MarkDown on 疯子爱淡定</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 28 Jun 2024 11:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MarkDown语法模版</title>
+      <link>http://heketong.github.io/posts/tech/markdown_demo/</link>
+      <pubDate>Fri, 28 Jun 2024 11:45:46 +0800</pubDate>
+      
+      <guid>http://heketong.github.io/posts/tech/markdown_demo/</guid>
+      <description>记录一些常用的markdown模版</description>
+    </item>
+    
+  </channel>
+</rss>

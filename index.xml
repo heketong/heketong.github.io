@@ -6,7 +6,16 @@
     <description>Recent content on 疯子爱淡定</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 27 Jun 2024 11:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jun 2024 11:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MarkDown语法模版</title>
+      <link>http://heketong.github.io/posts/tech/markdown_demo/</link>
+      <pubDate>Fri, 28 Jun 2024 11:45:46 +0800</pubDate>
+      
+      <guid>http://heketong.github.io/posts/tech/markdown_demo/</guid>
+      <description>记录一些常用的markdown模版</description>
+    </item>
+    
     <item>
       <title>博客自动同步到微信公众号</title>
       <link>http://heketong.github.io/posts/tech/%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5%E5%88%B0%E5%85%AC%E4%BC%97%E5%8F%B7/</link>
