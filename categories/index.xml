@@ -6,7 +6,25 @@
     <description>Recent content in Categories on 疯子爱淡定</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 04 Jul 2024 10:45:46 +0800</lastBuildDate><atom:link href="http://heketong.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jul 2024 17:02:58 +0800</lastBuildDate><atom:link href="http://heketong.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music</title>
+      <link>http://heketong.github.io/categories/music/</link>
+      <pubDate>Thu, 04 Jul 2024 17:02:58 +0800</pubDate>
+      
+      <guid>http://heketong.github.io/categories/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>周杰伦</title>
+      <link>http://heketong.github.io/categories/%E5%91%A8%E6%9D%B0%E4%BC%A6/</link>
+      <pubDate>Thu, 04 Jul 2024 17:02:58 +0800</pubDate>
+      
+      <guid>http://heketong.github.io/categories/%E5%91%A8%E6%9D%B0%E4%BC%A6/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>技术总结</title>
       <link>http://heketong.github.io/categories/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/</link>
@@ -67,15 +85,6 @@
       <pubDate>Wed, 19 Jun 2024 14:45:46 +0800</pubDate>
       
       <guid>http://heketong.github.io/categories/%E4%B8%8B%E8%BD%BD/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Music</title>
-      <link>http://heketong.github.io/categories/music/</link>
-      <pubDate>Sat, 15 Jun 2024 10:02:58 +0800</pubDate>
-      
-      <guid>http://heketong.github.io/categories/music/</guid>
       <description></description>
     </item>
     
