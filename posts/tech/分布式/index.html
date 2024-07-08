@@ -588,10 +588,10 @@ var _hmt = _hmt || [];
 <h3 id="概念">概念：<a hidden class="anchor" aria-hidden="true" href="#概念">#</a></h3>
 <p>缓存没有数据，而且数据库也没有数据。</p>
 <p>​	当这种情况大量出现或被恶意攻击时，接口的访问全部透过Redis访问数据库，而数据库中也没有这些数据，我们称这种现象为&quot;缓存穿透&quot;。缓存穿透会穿透Redis的保护，提升底层数据库的负载压力，同时这类穿透查询没有数据返回也造成了网络和计算资源的浪费。</p>
-<p><img loading="lazy" src="img/%e7%bc%93%e5%ad%98%e7%a9%bf%e9%80%8f%e7%a4%ba%e6%84%8f.png" alt=""  />
+<p><img loading="lazy" src="/img/%e7%bc%93%e5%ad%98%e7%a9%bf%e9%80%8f%e7%a4%ba%e6%84%8f.png" alt=""  />
 </p>
 <h3 id="一般解决方案">一般解决方案<a hidden class="anchor" aria-hidden="true" href="#一般解决方案">#</a></h3>
-<p><img loading="lazy" src="img/%e7%bc%93%e5%ad%98%e7%a9%bf%e9%80%8f%e4%b8%80%e8%88%ac%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88.png" alt=""  />
+<p><img loading="lazy" src="/img/%e7%bc%93%e5%ad%98%e7%a9%bf%e9%80%8f%e4%b8%80%e8%88%ac%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88.png" alt=""  />
 </p>
 <ul>
 <li>如果Redis内不存在该数据，则通过布隆过滤器判断数据是否在底层数据库内；</li>
@@ -605,24 +605,24 @@ var _hmt = _hmt || [];
 <li>一般是指缓存没有但是数据库有的数据。</li>
 <li>比如热点数据失效，导致大量合法热点请求打向数据库，此时数据库压力山大</li>
 </ul>
-<p><img loading="lazy" src="img/%e7%bc%93%e5%ad%98%e5%87%bb%e7%a9%bf%e7%a4%ba%e6%84%8f.png" alt=""  />
+<p><img loading="lazy" src="/img/%e7%bc%93%e5%ad%98%e5%87%bb%e7%a9%bf%e7%a4%ba%e6%84%8f.png" alt=""  />
 </p>
 <h3 id="一般解决方案-1">一般解决方案：<a hidden class="anchor" aria-hidden="true" href="#一般解决方案-1">#</a></h3>
 <ul>
 <li>延长热点key的过期时间或者设置永不过期，如排行榜，首页等一定会有高并发的接口；</li>
 <li>利用互斥锁保证同一时刻只有一个客户端可以查询底层数据库的这个数据，一旦查到数据就缓存至Redis内，避免其他大量请求同时穿过Redis访问底层数据库。</li>
 </ul>
-<p><img loading="lazy" src="img/%e7%bc%93%e5%ad%98%e5%87%bb%e7%a9%bf%e4%b8%80%e8%88%ac%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88.png" alt=""  />
+<p><img loading="lazy" src="/img/%e7%bc%93%e5%ad%98%e5%87%bb%e7%a9%bf%e4%b8%80%e8%88%ac%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88.png" alt=""  />
 </p>
 <h2 id="缓存雪崩">缓存雪崩<a hidden class="anchor" aria-hidden="true" href="#缓存雪崩">#</a></h2>
 <h3 id="概念-2">概念<a hidden class="anchor" aria-hidden="true" href="#概念-2">#</a></h3>
 <p>缓存雪崩时缓存击穿的加强版，<strong>大量的key几乎同时过期</strong>，然后大量并发查询穿过redis击打到底层数据库上，此时数据库层的负载压力会骤增，我们称这种现象为&quot;缓存雪崩&quot;。</p>
-<p><img loading="lazy" src="img/%e7%bc%93%e5%ad%98%e9%9b%aa%e5%b4%a9%e7%a4%ba%e6%84%8f.png" alt=""  />
+<p><img loading="lazy" src="/img/%e7%bc%93%e5%ad%98%e9%9b%aa%e5%b4%a9%e7%a4%ba%e6%84%8f.png" alt=""  />
 </p>
 <h3 id="一般解决方案-2">一般解决方案<a hidden class="anchor" aria-hidden="true" href="#一般解决方案-2">#</a></h3>
-<p><img loading="lazy" src="img/%e7%bc%93%e5%ad%98%e9%9b%aa%e5%b4%a9%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%881.png" alt=""  />
+<p><img loading="lazy" src="/img/%e7%bc%93%e5%ad%98%e9%9b%aa%e5%b4%a9%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%881.png" alt=""  />
 </p>
-<p><img loading="lazy" src="img/%e7%bc%93%e5%ad%98%e9%9b%aa%e5%b4%a9%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%882.png" alt=""  />
+<p><img loading="lazy" src="/img/%e7%bc%93%e5%ad%98%e9%9b%aa%e5%b4%a9%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%882.png" alt=""  />
 </p>
 <h2 id="缓存预热">缓存预热<a hidden class="anchor" aria-hidden="true" href="#缓存预热">#</a></h2>
 <p>​	缓存预热如字面意思，当系统上线时，缓存内还没有数据，如果直接提供给用户使用，每个请求都会穿过缓存去访问底层数据库，</p>
@@ -649,7 +649,7 @@ var _hmt = _hmt || [];
 </li>
 <li>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>推荐使用先失效缓存，后更新数据库，配合延迟失效来更新缓存的模式；
-</span></span></code></pre></div><p><img loading="lazy" src="img/%e7%bc%93%e5%ad%98%e6%9b%b4%e6%96%b0-cache_aside%e5%85%88%e5%a4%b1%e6%95%88%e7%bc%93%e5%ad%98%e5%90%8e%e6%9b%b4%e6%96%b0%e6%95%b0%e6%8d%ae%e5%ba%93.png" alt=""  />
+</span></span></code></pre></div><p><img loading="lazy" src="/img/%e7%bc%93%e5%ad%98%e6%9b%b4%e6%96%b0-cache_aside%e5%85%88%e5%a4%b1%e6%95%88%e7%bc%93%e5%ad%98%e5%90%8e%e6%9b%b4%e6%96%b0%e6%95%b0%e6%8d%ae%e5%ba%93.png" alt=""  />
 </p>
 <p><strong>四种缓存更新模式的优缺点</strong>：</p>
 <ul>
@@ -670,7 +670,7 @@ var _hmt = _hmt || [];
 <ul>
 <li>
 <p>Consistency 一致性 (读写数据的一致性)</p>
-<p><img loading="lazy" src="img/CAP_C_%e4%b8%80%e8%87%b4%e6%80%a7.png" alt=""  />
+<p><img loading="lazy" src="/img/CAP_C_%e4%b8%80%e8%87%b4%e6%80%a7.png" alt=""  />
 </p>
 <ul>
 <li>
@@ -894,7 +894,7 @@ var _hmt = _hmt || [];
 </ol>
 <h1 id="redis">redis<a hidden class="anchor" aria-hidden="true" href="#redis">#</a></h1>
 <h2 id="5种数据类型">5种数据类型<a hidden class="anchor" aria-hidden="true" href="#5种数据类型">#</a></h2>
-<p><img loading="lazy" src="img/redisObject.png" alt=""  />
+<p><img loading="lazy" src="/img/redisObject.png" alt=""  />
 </p>
 <p>​	内部使用一个redisObject对象来表示所有的key和value，redisObject最主要的信息如上图所示：type代表一个value对象具体是何种数据类型，encoding是不同数据类型在redis内部的存储方式，比如：type=string代表value存储的是一个普通字符串，那么对应的encoding可以是raw或者是int，如果是int则代表实际redis内部是按数值型类存储和表示这个字符串的，当然前提是这个字符串本身可以用数值表示，比如:&ldquo;123&rdquo; &ldquo;456&quot;这样的字符串。</p>
 <h3 id="string-字符串类型">string 字符串类型<a hidden class="anchor" aria-hidden="true" href="#string-字符串类型">#</a></h3>
@@ -987,7 +987,7 @@ var _hmt = _hmt || [];
 </ul>
 <h3 id="hash">hash<a hidden class="anchor" aria-hidden="true" href="#hash">#</a></h3>
 <p>​	存放的value本身是是个hashmap 也就是一个string 类型的 field 和 value 的映射表</p>
-<p><img loading="lazy" src="img/redis_hash%e7%a4%ba%e6%84%8f.png" alt=""  />
+<p><img loading="lazy" src="/img/redis_hash%e7%a4%ba%e6%84%8f.png" alt=""  />
 </p>
 <p>​	对数据的修改和存取都可以直接通过其内部Map的Key(Redis里称内部Map的key为field), 也就是通过 key(用户ID) + field(属性标签) 就可以操作对应属性数据了，既不需要重复存储数据，也不会带来序列化和并发修改控制的问题。</p>
 <p>​	实现方式：上面已经说到Redis Hash对应Value内部实际就是一个HashMap，实际这里会有2种不同实现，这个Hash的成员比较少时Redis为了节省内存会采用类似一维数组的方式来紧凑存储，而不会采用真正的HashMap结构，对应的value redisObject的encoding为zipmap，当成员数量增大时会自动转成真正的HashMap，此时encoding为ht</p>
